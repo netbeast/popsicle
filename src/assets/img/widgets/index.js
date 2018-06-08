@@ -1,0 +1,85 @@
+/**
+ * @providesModule %imgWidget
+ */
+
+// Brand + Topic
+export {default as Bigfoot} from './bigfoot-bigfoot.png'
+export {default as BigfootBulb} from './wemo-lights.png'
+export {default as BigfootBulbOff} from './wemo-lights-off.png'
+export {default as BigfootBulbOn} from './wemo-lights-on.png'
+export {default as BigfootCamera} from './netatmo-camera.png'
+export {default as BigfootMusic} from './sonos-play-1.png'
+export {default as BigfootSwitch} from './tplink-switch-off.png'
+export {default as BigfootSwitchOff} from './tplink-switch-off.png'
+export {default as BigfootSwitchOn} from './tplink-switch-on.png'
+export {default as BigfootThermostat} from './thermostat.png'
+
+export {default as DefaultGroup} from './default-group.png'
+export {default as EcobeeThermostat} from './thermostat.png'
+export {default as LifxBulb} from './lifx.png'
+export {default as LifxBulbOff} from './lifx-off.png'
+export {default as LifxBulbOn} from './lifx-on.png'
+export {default as LightSwitchOff} from './light-switch-off.png'
+export {default as LightSwitchOn} from './light-switch-on.png'
+export {default as NestThermostat} from './thermostat.png'
+export {default as NestSensor} from './nest-sensor.png'
+export {default as NetatmoCamera} from './netatmo-camera.png'
+export {default as NetatmoThermostat} from './thermostat.png'
+export {default as NukiBridge} from './nuki-bridge.png'
+export {default as NukiLock} from './nuki-locked.png'
+export {default as NukiLockOpen} from './nuki-open.png'
+export {default as PhilipsHueBridge} from './philips-hue-bridge.png'
+export {default as PhilipsHueBulb} from './philips-hue.png'
+export {default as PhilipsHueBulbOff} from './philips-hue-off.png'
+export {default as PhilipsHueBulbOn} from './philips-hue-on.png'
+export {default as PhilipsHueGoBulb} from './philips-hue-go.png'
+export {default as PhilipsHueGoBulbOn} from './philips-hue-go-on.png'
+export {default as SonosMusic} from './sonos-play-1.png'
+export {default as SonosMusicPlay1} from './sonos-play-1.png'
+export {default as SonosMusicPlay3} from './sonos-play-3.png'
+export {default as SonosMusicPlay5} from './sonos-play-5.png'
+export {default as Thermostat} from './netatmo-thermostat.png'
+export {default as TplinkBulb} from './tplink-bulb.png'
+export {default as TplinkLightSwitch} from './light-switch-off.png'
+export {default as TplinkLightSwitchOff} from './light-switch-off.png'
+export {default as TplinkLightSwitchOn} from './light-switch-on.png'
+export {default as TplinkSwitch} from './tplink-switch-off.png'
+export {default as TplinkSwitchOff} from './tplink-switch-off.png'
+export {default as TplinkSwitchOn} from './tplink-switch-on.png'
+export {default as WemoBulb} from './wemo-lights.png'
+export {default as WemoBulbOff} from './wemo-lights-off.png'
+export {default as WemoBulbOn} from './wemo-lights-on.png'
+export {default as WemoLightSwitch} from './light-switch-off.png'
+export {default as WemoLightSwitchOff} from './light-switch-off.png'
+export {default as WemoLightSwitchOn} from './light-switch-on.png'
+export {default as WemoSwitch} from './wemo-switch-off.png'
+export {default as WemoSwitchOff} from './wemo-switch-off.png'
+export {default as WemoSwitchOn} from './wemo-switch-on.png'
+export {default as Yeelight} from './yeelight.png'
+export {default as YeelightBulb} from './yeelight.png'
+export {default as YeelightBulbOff} from './yeelight-off.png'
+export {default as YeelightBulbOn} from './yeelight-on.png'
+export {default as YeelightOff} from './yeelight-off.png'
+export {default as YeelightOn} from './yeelight-on.png'
+export {default as YeelightStripeBulb} from './yeelight-stripe.png'
+export {default as SonoffSwitchOn} from './default-switch-on.png'
+export {default as SonoffSwitchOff} from './default-switch-off.png'
+export {default as SonoffSwitch} from './default-switch-off.png'
+
+export const Group = {
+  Bulb: require('./group-bulbs.png'),
+  Camera: require('./netatmo-camera.png'),
+  Music: require('./group-music.png'),
+  Switch: require('./group-switch.png'),
+}
+
+// Legacy
+
+export {default as NetatmoThermostatThermostat} from './thermostat.png'
+export {default as NestThermostatThermostat} from './thermostat.png'
+export {default as WemoInsightSwitch} from './wemo-switch-off.png'
+export {default as WemoInsightSwitchOn} from './wemo-switch-on.png'
+export {default as WemoInsightSwitchOff} from './wemo-switch-off.png'
+export {default as WemoLightsBulb} from './wemo-lights.png'
+export {default as WemoLightsBulbOn} from './wemo-lights-on.png'
+export {default as WemoLightsBulbOff} from './wemo-lights-off.png'

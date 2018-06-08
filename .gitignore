@@ -1,0 +1,33 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# expo
+.expo/
+
+# dependencies
+/node_modules
+
+# production
+/build
+/public/assets
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.mp4
+coverage
+*.log
+report.xml
+*.app.dSYM.zip
+*.ipa
+lint-report.json
+flow-report.json
+!scripts/build/
+.gradledeps
+ios/Pods

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="320" height="480" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+ <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="0" y="0" width="320" height="480"/>
+
+ <g transform='translate(0, 0)'>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="320" height="115"/>
+
+   <g transform='translate(0, 0)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="10" width="320" height="95"/>
+
+     <g transform='translate(0, 10)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="10" width="300" height="75"/>
+
+       <g transform='translate(10, 10)'>
+         <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(28, 35, 105)" x="0" y="0" width="300" height="75"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="124" y="14" width="53" height="48"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Next</p></body></foreignObject>
+         </g>
+
+         <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(28, 35, 105)" x="70" y="-30" width="160" height="64"/>
+         <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(28, 35, 105)" x="70" y="41" width="160" height="64"/>
+       </g>
+
+     </g>
+
+   </g>
+
+ </g>
+
+</svg>
