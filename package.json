@@ -16,7 +16,27 @@
     "prettier-eslint": "prettier-eslint --write \"src/**/*.js\""
   },
   "jest": {
-    "preset": "jest-expo"
+    "globals": {
+      "__DEV__": true
+    },
+    "preset": "react-native",
+    "testEnvironment": "jsdom",
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|tests))\\.jsx?$",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-navigation|lottie-react-native|@expo/react-native-action-sheet|popsicle)"
+    ],
+    "collectCoverageFrom": [
+      "app/**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/scripts/**",
+      "!**/meta/**",
+      "!**/ios/**",
+      "!**/app/lib/**",
+      "!**/Diagnostics/**"
+    ],
+    "moduleNameMapper": {
+      "^React$": "<rootDir>/node_modules/react"
+    }
   },
   "peerDependencies": {
     "expo": "^25.0.0",
