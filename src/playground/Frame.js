@@ -1,17 +1,25 @@
 import React from 'react'
-import {StyleSheet, Text, View} from 'react-native'
+import {StyleSheet, Text, View, ScrollView} from 'react-native'
+
+import * as examples from '../examples'
 
 export class Frame extends React.Component {
   render () {
     return (
       <View style={styles.frame}>
         <View style={styles.container}>
-          <View style={{backgroundColor: 'white'}}>
-            <Text>You can see the changes in real time</Text>
-            <Text>Open up src/App.js to start working on your app!</Text>
-            <Text>Changes you make will automatically reload.</Text>
-            <Text>Shake your phone to open the developer menu.</Text>
-          </View>
+          <ScrollView>
+          {Object.keys(examples)
+            .filter(key => typeof examples[key] === 'function')
+            .map(key => {
+              const Renderer = examples[key]
+              return (
+                <View key={key} style={{margin: 40}}>
+                  <Renderer />
+                </View>
+              )
+            })}
+          </ScrollView>
         </View>
       </View>
     )

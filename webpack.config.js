@@ -63,7 +63,7 @@ const ttfLoaderConfiguration = {
   test: /\.(woff|woff2|eot|ttf|otf)$/,
   use: [
     {
-      loader: 'file-loader',
+      loader: 'url-loader',
       options: {
         name: './fonts/[hash].[ext]',
       },
