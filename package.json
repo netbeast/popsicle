@@ -62,7 +62,6 @@
     "prettier-miscellaneous": "^1.5.3",
     "react": "16.2.0",
     "react-dom": "16.0.0",
-    "react-native": "0.52.0",
     "react-native-animatable": "^1.2.4",
     "react-native-scripts": "next",
     "react-native-touchable-native-feedback-safe": "netbeast/react-native-touchable-native-feedback-safe",
@@ -86,6 +85,7 @@
     "babel-preset-react-native": "^4.0.0",
     "babel-preset-react-native-stage-0": "^1.0.1",
     "jest": "^23.1.0",
+    "react-native": "0.52.0",
     "react-native-vector-icons": "^4.6.0"
   }
 }

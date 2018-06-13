@@ -14,7 +14,7 @@ export class Frame extends React.Component {
             .map(key => {
               const Renderer = examples[key]
               return (
-                <View key={key} style={{margin: 40}}>
+                <View key={key} style={{margin: 40, borderRadius: 10, backgroundColor: 'white', padding: 20}}>
                   <Renderer />
                 </View>
               )

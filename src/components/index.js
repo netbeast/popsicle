@@ -348,10 +348,13 @@ export class PasswordInput extends Component {
 
   render () {
     const {
-      value, style, label, placeholder, hideLabel, ...props
+      style, label, placeholder, hideLabel, ...props
     } = this.props
     const {secureTextEntry, focus} = this.state
     const {color: ignoredProp, ...viewStyle} = style || {}
+
+    console.log([styles.txtInput, style, {flex: 1, fontFamily: 'Open Sans'}])
+
     return (
       <View>
         <View
@@ -364,28 +367,23 @@ export class PasswordInput extends Component {
             ref={node => {
               this.input = node
             }}
-            style={[styles.txtInput, style]}
+            style={[styles.txtInput, style, {flex: 1, fontFamily: 'Open Sans'}]}
             focus={focus}
-            value={value}
             underlineColorAndroid="transparent"
             secureTextEntry={secureTextEntry}
             placeholder={placeholder}
             {...props}
           />
-
-          <TouchableOpacity
-            style={{
-              flex: 0.1,
-              flexDirection: 'row',
-            }}
-            activeOpacity={0.8}
-            onPress={() => this.setState({secureTextEntry: !secureTextEntry})}>
             <Icon
-              style={{fontSize: 30}}
+              style={{
+                fontSize: 30,
+                alignSelf: 'flex-end',
+                flexDirection: 'row',
+              }}
               color="#59CBE8"
+              onPress={() => this.setState({secureTextEntry: !secureTextEntry})}
               name={secureTextEntry ? 'md-eye' : 'md-eye-off'}
             />
-          </TouchableOpacity>
         </View>
       </View>
     )
@@ -520,7 +518,7 @@ export const Title = ({
       {
         backgroundColor: 'transparent',
         color: color || theme.GREY,
-        // fontFamily: theme.BOLD_FONT,
+        fontFamily: theme.BOLD_FONT,
         fontSize: fontSize || 36,
       },
       style,
@@ -684,12 +682,10 @@ const styles = StyleSheet.create({
   },
   paragraph: {
     color: theme.GREY,
-    fontFamily: theme.PARAGRAPH_FONT,
+    fontFamily: theme.REGULAR_FONT,
   },
   txtInput: {
-    flex: 0.8,
-
-    // fontFamily: theme.PARAGRAPH_FONT,
+    fontFamily: theme.REGULAR_FONT,
     height: 52,
     fontSize: 20,
   },

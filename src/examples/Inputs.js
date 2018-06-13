@@ -23,15 +23,7 @@ export function Inputs () {
           borderRadius: 25,
         }}>
         <View style={{flex: 1, flexDirection: 'row'}}>
-          <TxtInput
-            style={{
-              height: 18,
-              fontSize: 16,
-              flex: 1,
-              marginLeft: 10,
-              color: 'rgb(53, 64, 82)',
-            }}
-          />
+          <TxtInput />
         </View>
         <Button
           onPress={() => {
@@ -73,15 +65,7 @@ export function Inputs () {
           backgroundColor: '#F3F5F6',
         }}>
         <View style={{flex: 1, flexDirection: 'row'}}>
-          <TxtInput
-            style={{
-              height: 18,
-              fontSize: 16,
-              flex: 1,
-              marginLeft: 10,
-              color: 'rgb(53, 64, 82)',
-            }}
-          />
+          <TxtInput />
         </View>
         <Button
           onPress={() => {
@@ -123,14 +107,7 @@ export function Inputs () {
           backgroundColor: '#F3F5F6',
         }}>
         <View style={{flex: 1, flexDirection: 'row'}}>
-          <PasswordInput
-            style={{
-              flex: 1,
-
-              fontSize: 16,
-              marginLeft: 10,
-            }}
-          />
+          <PasswordInput />
         </View>
       </View>
       <View>
@@ -147,15 +124,7 @@ export function Inputs () {
           backgroundColor: '#F3F5F6',
         }}>
         <View style={{flex: 1, flexDirection: 'row'}}>
-          <EmailInput
-            style={{
-              height: 18,
-              fontSize: 16,
-              flex: 1,
-              marginLeft: 10,
-              color: 'rgb(54, 64, 82)',
-            }}
-          />
+          <EmailInput />
         </View>
         <Button
           onPress={() => {
