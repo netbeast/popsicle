@@ -4,7 +4,7 @@ import {AppNavigator} from './AppNavigator'
 
 export default class EntryPoint extends Component {
   componentDidMount () {
-    if (Platform.os === 'web') {
+    if (Platform.OS === 'web') {
       global.WebFont.load({
         google: {families: ['Open+Sans:400,600,700']},
       })

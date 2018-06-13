@@ -703,8 +703,8 @@ const styles = StyleSheet.create({
   },
   bold: {
     color: theme.GREY,
-    fontWeight: 'bold',
-    fontFamily: theme.BOLD_FONT,
+    fontWeight: '700',
+    fontFamily: Platform.OS === 'web' ? theme.REGULAR_FONT : theme.BOLD_FONT,
   },
   button: {
     flexDirection: 'row',

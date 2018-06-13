@@ -46,14 +46,10 @@ export const RED = 'rgb(194, 61, 85)'
 export const YELLOW = 'rgb(232, 255, 124)'
 export const YELLOW_DARK = 'rgb(232, 211, 124)'
 
-export const PARAGRAPH_FONT =
-  Platform.OS === 'ios' ? 'Proxima Nova Alt' : 'proxima_nova_alt_regular'
-export const BOLD_FONT =
-  Platform.OS === 'android' ? 'proxima_nova_bold' : 'Open Sans Bold'
-export const REGULAR_FONT =
-  Platform.OS === 'android' ? 'proxima_nova_alt_regular' : 'Open Sans'
-export const SEMI_BOLD_FONT =
-  Platform.OS === 'android' ? 'proxima_nova_alt_regular' : 'Open Sans Semibold'
+export const PARAGRAPH_FONT = 'Open Sans'
+export const BOLD_FONT = 'Open Sans Bold'
+export const REGULAR_FONT = 'Open Sans'
+export const SEMI_BOLD_FONT = 'Open Sans Semibold'
 
 export const BORDER_RADIUS = 10
 
