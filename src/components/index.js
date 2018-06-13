@@ -353,16 +353,8 @@ export class PasswordInput extends Component {
     const {secureTextEntry, focus} = this.state
     const {color: ignoredProp, ...viewStyle} = style || {}
 
-    console.log([styles.txtInput, style, {flex: 1, fontFamily: 'Open Sans'}])
-
     return (
-      <View>
-        <View
-          style={{
-            alignItems: 'center',
-            flex: 1,
-            flexDirection: 'row',
-          }}>
+        <View style={[styles.txtInputBackground, this.props.backgroundStyle]}>
           <TextInput
             ref={node => {
               this.input = node
@@ -376,16 +368,14 @@ export class PasswordInput extends Component {
           />
             <Icon
               style={{
-                fontSize: 30,
-                alignSelf: 'flex-end',
-                flexDirection: 'row',
+                fontSize: 22,
+                marginRight: 12,
               }}
               color="#59CBE8"
               onPress={() => this.setState({secureTextEntry: !secureTextEntry})}
               name={secureTextEntry ? 'md-eye' : 'md-eye-off'}
             />
         </View>
-      </View>
     )
   }
 }
@@ -634,13 +624,21 @@ export class TxtInput extends Component {
 
   render () {
     return (
-      <TextInput
-        placeholder={this.state.text}
-        placeholderTextColor="#9BA3B0"
-        style={[styles.txtInput, this.props.style]}
-        underlineColorAndroid="transparent"
-        {...this.props} // will override underlineColorAndroid
-      />
+      <View style={[styles.txtInputBackground, this.props.backgroundStyle]}>
+        <TextInput
+          placeholder={this.state.text}
+          placeholderTextColor="#9BA3B0"
+          style={[styles.txtInput, this.props.style]}
+          underlineColorAndroid="transparent"
+          {...this.props} // will override underlineColorAndroid
+        />
+        <Icon
+          style={{fontSize: 30, backgroundColor: theme.GREY_LIGHT, borderRadius: 15, width: 25, height: 25}}
+          color="white"
+          onPress={() => {}}
+          name="ios-close"
+        />
+      </View>
     )
   }
 }
@@ -685,9 +683,19 @@ const styles = StyleSheet.create({
     fontFamily: theme.REGULAR_FONT,
   },
   txtInput: {
+    flex: 1,
     fontFamily: theme.REGULAR_FONT,
+    fontSize: 16,
+  },
+  txtInputBackground: {
+    backgroundColor: theme.GREY_LIGHTER,
     height: 52,
-    fontSize: 20,
+    padding: 10,
+    paddingLeft: 20,
+    paddingBottom: 12,
+    borderRadius: 50,
+    flexDirection: 'row',
+    alignItems: 'center',
   },
   smallText: {
     fontSize: 10,
