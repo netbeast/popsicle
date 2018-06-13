@@ -3,7 +3,7 @@ import {View} from 'react-native'
 import * as components from '../components/index'
 import * as theme from '../components/theme'
 
-export function NewButtons (){
+export function NewButtons () {
   const {Button, Txt, NewButton} = components
   return (
     <View

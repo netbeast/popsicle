@@ -1,0 +1,16 @@
+{
+    "presets": [
+      "flow",
+      "react-native",
+      "react-native-stage-0/decorator-support"
+    ],
+    "env": {
+      "production": {
+        "plugins": [
+          "idx",
+          "transform-remove-console",
+          "transform-inline-environment-variables"
+        ]
+      }
+    }
+  }

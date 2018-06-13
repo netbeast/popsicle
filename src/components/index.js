@@ -17,7 +17,6 @@ import {
   TextInput,
   TouchableWithoutFeedback,
   TouchableOpacity,
-  TouchableHighlight,
   TouchableNativeFeedback,
   View,
 } from 'react-native'
@@ -73,8 +72,7 @@ export const Button = ({style, ...props}) => (
 export const CheckBox = ({size, value, ...props}) => {
   const activeTintColor = props.activeTintColor || theme.TEAL
   const inactiveTintColor = props.inactiveTintColor || 'white'
-  const borderInactiveTintColor =
-    props.inactiveTintColor || theme.GREY_LIGHT
+  const borderInactiveTintColor = props.inactiveTintColor || theme.GREY_LIGHT
   return (
     <TouchableWithoutFeedback onPress={props.onValueChange}>
       <View
@@ -353,9 +351,6 @@ export class PasswordInput extends Component {
     } = this.props
     const {secureTextEntry, focus} = this.state
     const {color: ignoredProp, ...viewStyle} = style || {}
-    const color =
-      props.color || idx(this.props, _ => _.style.color) || theme.GREY
-
     return (
       <View>
         <View
@@ -386,9 +381,9 @@ export class PasswordInput extends Component {
             onPress={() => this.setState({secureTextEntry: !secureTextEntry})}>
             <Icon
               style={{fontSize: 30}}
-              color={'#59CBE8'}
-              name={secureTextEntry ? 'ios-eye' : 'ios-eye-outline' }>
-            </Icon>
+              color="#59CBE8"
+              name={secureTextEntry ? 'ios-eye' : 'ios-eye-outline'}
+            />
           </TouchableOpacity>
         </View>
       </View>
@@ -635,18 +630,18 @@ export const TextTiny = ({
 export class TxtInput extends Component {
   constructor (props) {
     super(props)
-    this.state = { text: this.props.placeholderText || 'placeholder' };
+    this.state = {text: this.props.placeholderText || 'placeholder'}
   }
 
   render () {
     return (
-        <TextInput
+      <TextInput
         placeholder={this.state.text}
         placeholderTextColor="#9BA3B0"
         style={[styles.txtInput, this.props.style]}
         underlineColorAndroid="transparent"
         {...this.props} // will override underlineColorAndroid
-    />
+      />
     )
   }
 }
@@ -673,30 +668,24 @@ export class NewButton extends Component {
         <View style={styles.tvscreen}>
           <View
             style={
-              this.state.pressStatus ? (
-                styles.tvscreenMainPressed
-              ) : (
-                styles.tvscreenMain
-              )
+              this.state.pressStatus
+                ? styles.tvscreenMainPressed
+                : styles.tvscreenMain
             }>
             <Txt style={styles.newButtonText}>{this.props.children}</Txt>
           </View>
           <View
             style={
-              this.state.pressStatus ? (
-                styles.tvscreenTopPressed
-              ) : (
-                styles.tvscreenTop
-              )
+              this.state.pressStatus
+                ? styles.tvscreenTopPressed
+                : styles.tvscreenTop
             }
           />
           <View
             style={
-              this.state.pressStatus ? (
-                styles.tvscreenBottomPressed
-              ) : (
-                styles.tvscreenBottom
-              )
+              this.state.pressStatus
+                ? styles.tvscreenBottomPressed
+                : styles.tvscreenBottom
             }
           />
         </View>
@@ -743,12 +732,6 @@ const styles = StyleSheet.create({
   paragraph: {
     color: theme.GREY,
     fontFamily: theme.PARAGRAPH_FONT,
-  },
-  pill: {
-    borderWidth: 1,
-    paddingVertical: 3,
-    paddingHorizontal: 6,
-    borderRadius: 12,
   },
   txtInput: {
     flex: 0.8,

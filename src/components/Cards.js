@@ -78,8 +78,8 @@ export class ExpandableCard extends React.Component {
 const styles = StyleSheet.create({
   card: {
     borderWidth: 1,
-    borderColor: appStyles.GREY_LIGHT,
-    borderRadius: appStyles.BORDER_RADIUS,
+    borderColor: theme.GREY_LIGHT,
+    borderRadius: theme.BORDER_RADIUS,
     padding: 10,
     marginHorizontal: 10,
     marginVertical: 5,

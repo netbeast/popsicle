@@ -31,3 +31,4 @@ flow-report.json
 !scripts/build/
 .gradledeps
 ios/Pods
+coverage
