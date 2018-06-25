@@ -8712,6 +8712,10 @@ rimraf@~2.4.0:
   dependencies:
     glob "^6.0.1"
 
+rip-out@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/rip-out/-/rip-out-1.0.0.tgz#d622a7b607e1cdadc8b079bf9fb3da42c13b98e3"
+
 ripemd160@^2.0.0, ripemd160@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/ripemd160/-/ripemd160-2.0.2.tgz#a1c1a6f624751577ba5d07914cbc92850585890c"
@@ -9511,6 +9515,13 @@ svgo@^0.7.0:
     mkdirp "~0.5.1"
     sax "~1.2.1"
     whet.extend "~0.9.9"
+
+svgs@^3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/svgs/-/svgs-3.2.1.tgz#cf0804ab0cb346815d696cbc79b30f6343d710be"
+  dependencies:
+    prop-types "^15.5.10"
+    rip-out "^1.0.0"
 
 swap-case@^1.1.0:
   version "1.1.2"

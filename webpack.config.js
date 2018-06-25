@@ -113,6 +113,7 @@ module.exports = {
     symlinks: false,
     extensions: ['.web.js', '.js'],
     alias: {
+      'react-native-svg': 'svgs',
       './assets/images/expo-icon.png': './assets/images/expo-icon@2x.png',
       './assets/images/slack-icon.png': './assets/images/slack-icon@2x.png',
       '@expo/vector-icons': 'expo-web',

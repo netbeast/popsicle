@@ -87,6 +87,7 @@
     "jest": "^23.1.0",
     "react-native": "0.52.0",
     "react-native-vector-icons": "^4.6.0",
-    "react-powerplug": "^0.1.6"
+    "react-powerplug": "^0.1.6",
+    "svgs": "^3.2.1"
   }
 }
