@@ -617,27 +617,38 @@ export const TextTiny = ({
 )
 
 export class TxtInput extends Component {
-  constructor (props) {
-    super(props)
-    this.state = {text: this.props.placeholderText || 'placeholder'}
+  static defaultProps = {
+    onChangeText: () => {},
+  }
+
+  state = { filled: !!this.props.value }
+
+  clearText = () => {
+    this.props.onChangeText('')
+    this.node.setNativeProps({text: ''})
+    this.setState({filled: false})
   }
 
   render () {
     return (
       <View style={[styles.txtInputBackground, this.props.backgroundStyle]}>
         <TextInput
-          placeholder={this.state.text}
+          ref={n => { this.node = n }}
           placeholderTextColor="#9BA3B0"
           style={[styles.txtInput, this.props.style]}
           underlineColorAndroid="transparent"
           {...this.props} // will override underlineColorAndroid
+          onChangeText={value => {
+            this.setState({filled: value.length > 0})
+            this.props.onChangeText(value)
+          }}
         />
-        <Icon
-          style={{fontSize: 30, backgroundColor: theme.GREY_LIGHT, borderRadius: 15, width: 25, height: 25}}
+        {this.state.filled ? <Icon
+          style={styles.txtInputIcon}
           color="white"
-          onPress={() => {}}
+          onPress={() => this.clearText()}
           name="ios-close"
-        />
+        /> : null}
       </View>
     )
   }
@@ -697,9 +708,19 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
+  txtInputIcon: {
+    fontSize: 26,
+    backgroundColor: theme.GREY_LIGHT,
+    borderRadius: 15,
+    width: 28,
+    height: 28,
+    textAlign: 'center',
+
+  },
   smallText: {
     fontSize: 10,
     fontWeight: '100',
     backgroundColor: 'transparent',
+    fontFamily: theme.REGULAR_FONT,
   },
 })

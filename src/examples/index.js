@@ -1,4 +1,5 @@
 // export * from './OldButtons'
 export * from './Inputs'
+export * from './ColorSamples'
 export * from './TextSamples'
 export * from './NewButtons'
