@@ -2,7 +2,7 @@ import React from 'react'
 import {Platform, View, StyleSheet} from 'react-native'
 import { Toggle } from 'react-powerplug'
 
-import {CheckBox, TextSmall, Slider, Switch} from '../components/index'
+import {Bold, Card, CheckBox, ExpandableCard, TextSmall, Txt, Slider, Switch} from '../components/index'
 
 import * as theme from '../components/theme'
 
@@ -39,6 +39,17 @@ export function Miscellanea () {
           </React.Fragment>
         )
       })()}
+
+      <Bold> The following is a {'<Card />'} component </Bold>
+      <Card>
+        <Txt>Some framed content here</Txt>
+      </Card>
+      <Bold> The following is a {'<ExpandableCard />'} component </Bold>
+      <ExpandableCard expanded={false}>
+        <Txt>Press on top of the box</Txt>
+        <Txt>To see how the content is compressed</Txt>
+        <Txt>... Some more content</Txt>
+      </ExpandableCard>
     </View>
   )
 }

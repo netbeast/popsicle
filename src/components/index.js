@@ -6,6 +6,7 @@ import {
   Dimensions,
   Image,
   Linking,
+  Platform,
   StyleSheet,
   TextInput,
   TouchableWithoutFeedback,
@@ -16,10 +17,11 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import * as Animatable from 'react-native-animatable'
-import {Title} from './Text'
+import {Title, Txt} from './Text'
 import * as theme from './theme'
 
 export * from './Buttons'
+export * from './Cards'
 export * from './PillowButton'
 export * from './Screen'
 export * from './Slider'
@@ -282,14 +284,24 @@ export const Setting = ({
   </View>
 )
 
-export const TouchableRipple = ({children, style, ...props}) => (
-  <TouchableNativeFeedback
-    background={TouchableNativeFeedback.SelectableBackgroundBorderless()}
-    useForeground={false}
-    {...props}>
-    <View style={style}>{children}</View>
-  </TouchableNativeFeedback>
-)
+export const TouchableRipple = ({children, style, ...props}) => {
+  if (process.env.NODE_ENV === 'test' || Platform.OS === 'web') {
+    return (
+      <TouchableWithoutFeedback {...props}>
+        <View style={style}>{children}</View>
+      </TouchableWithoutFeedback>
+    )
+  }
+
+  return (
+    <TouchableNativeFeedback
+      background={TouchableNativeFeedback.SelectableBackgroundBorderless()}
+      useForeground={false}
+      {...props}>
+      <View style={style}>{children}</View>
+    </TouchableNativeFeedback>
+  )
+}
 
 export class TxtInput extends Component {
   static defaultProps = {
