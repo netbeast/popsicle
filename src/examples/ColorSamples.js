@@ -1,5 +1,5 @@
 import React from 'react'
-import {View} from 'react-native'
+import {Platform, View} from 'react-native'
 
 import {TextSmall, TextTiny, TextTitle} from '../components'
 import * as theme from '../components/theme'
@@ -31,17 +31,18 @@ export function ColorSamples () {
 
 const ColorSample = props => (
   <View
-      style={{
+      style={[{
         shadowOpacity: 0.5,
         shadowOffset: {width: 2, height: 2},
-        boxShadow: '0 0 1px rgba(0,0,0,.5)',
         borderRadius: 5,
         width: 120,
         padding: 10,
         height: 100,
         margin: 20,
         backgroundColor: props.color,
-    }}>
+    }, Platform.OS === 'web' ? {
+      boxShadow: '0 0 1px rgba(0,0,0,.5)',
+    } : {}]}>
       <TextSmall>{props.name}</TextSmall>
       <TextTiny>{props.color}</TextTiny>
   </View>

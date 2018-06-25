@@ -1,10 +1,9 @@
 import React from 'react'
 import {View} from 'react-native'
-import * as components from '../components/index'
+import {PillowButton} from '../components/index'
 import * as theme from '../components/theme'
 
-export function NewButtons () {
-  const {Button, Txt, NewButton} = components
+export function PillowButtons () {
   return (
     <View
       style={{
@@ -15,7 +14,7 @@ export function NewButtons () {
           padding: 10,
           alignItems: 'center',
         }}>
-        <NewButton> Next</NewButton>
+        <PillowButton> Next</PillowButton>
       </View>
     </View>
   )
