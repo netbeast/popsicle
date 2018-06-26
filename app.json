@@ -1,5 +1,7 @@
 {
   "expo": {
+    "entryPoint": "src/index.js",
+    "icon": "src/assets/popsicle.png",
     "sdkVersion": "25.0.0"
   }
 }
