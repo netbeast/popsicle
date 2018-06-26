@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="320" height="480" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+ <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="320" height="480"/>
+
+ <g transform='translate(0, 0)'>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="10" width="320" height="28"/>
+
+   <g transform='translate(0, 10)'>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="93" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
+     <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(140, 61, 255)" x="93" y="2" width="25" height="25"/>
+   </g>
+
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="58" width="320" height="31"/>
+
+   <g transform='translate(0, 58)'>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="2" width="68" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Customized with colors depending on mobile OS </p></body></foreignObject>
+     <rect type="RCTSwitch" fill-opacity="0.1" stroke-width="1" stroke="black" x="68" y="0" width="51" height="31"/>
+   </g>
+
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="99" width="4" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
+   <rect type="RCTSlider" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="127" width="320" height="40"/>
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="167" width="110" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> component </p></body></foreignObject>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="200" width="300" height="94"/>
+
+   <g transform='translate(10, 200)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="122" y="16" width="157" height="14"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="190" y="40" width="89" height="14"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="197" y="64" width="82" height="14"/>
+   </g>
+
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="299" width="110" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> component </p></body></foreignObject>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="332" width="300" height="106"/>
+
+   <g transform='translate(10, 332)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="11" y="11" width="278" height="84"/>
+
+     <g transform='translate(11, 11)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="278" height="84"/>
+
+       <g transform='translate(0, 0)'>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="152" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Press on top of the box</p></body></foreignObject>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="28" width="250" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">To see how the content is compressed</p></body></foreignObject>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="56" width="145" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">... Some more content</p></body></foreignObject>
+       </g>
+
+     </g>
+
+   </g>
+
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="443" width="195" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"><PagingDots /></p></body></foreignObject>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="471" width="300" height="300"/>
+
+   <g transform='translate(0, 471)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="1" y="1" width="298" height="298"/>
+
+     <g transform='translate(1, 1)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="298" height="298"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="298" height="298"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="298" height="298"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="298" height="298"/>
+
+             <g transform='translate(0, 0)'>
+               <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="5" width="278" height="94"/>
+
+               <g transform='translate(10, 5)'>
+                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="140" y="16" width="117" height="14"/>
+                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="212" y="40" width="45" height="14"/>
+                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="187" y="64" width="70" height="14"/>
+               </g>
+
+             </g>
+
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="0" height="298"/>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="0" height="298"/>
+       </g>
+
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="256" width="300" height="42"/>
+
+       <g transform='translate(0, 256)'>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="124" y="5" width="12" height="12"/>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="146" y="6" width="10" height="10"/>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="166" y="6" width="10" height="10"/>
+       </g>
+
+     </g>
+
+   </g>
+
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="771" width="189" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"><Screen /></p></body></foreignObject>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="799" width="320" height="0"/>
+ </g>
+
+</svg>
