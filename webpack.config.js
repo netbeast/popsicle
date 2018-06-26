@@ -16,6 +16,8 @@ const babelLoaderConfiguration = {
     path.resolve(appDirectory, 'src'),
     path.resolve(appDirectory, 'node_modules/react-navigation'),
     path.resolve(appDirectory, 'node_modules/react-native-animatable'),
+    path.resolve(appDirectory, 'node_modules/react-native-big-slider'),
+    path.resolve(appDirectory, 'node_modules/react-native-color-wheel'),
     path.resolve(appDirectory, 'node_modules/react-native-shadow'),
     path.resolve(appDirectory, 'node_modules/react-native-tab-view'),
     path.resolve(appDirectory, 'node_modules/react-native-vector-icons'),

@@ -2,11 +2,12 @@
 import React from 'react'
 import {
   Image,
+  Linking,
   StyleSheet,
   TouchableOpacity,
   View,
 } from 'react-native'
-import {Bold} from './Text'
+import {Txt, Bold} from './Text'
 import * as theme from './theme'
 
 export const Button = ({style, ...props}) => (
@@ -81,6 +82,26 @@ export const SocialButton = ({
   </TouchableOpacity>
 )
 
+export const Link = props => (
+  <Txt
+    onPress={async () => {
+      if (props.href && (await Linking.canOpenURL(props.href))) {
+        return Linking.openURL(props.href)
+      }
+    }}
+    {...props}
+    style={[
+      props.style,
+      props.underline
+        ? {
+            textDecorationLine: 'underline',
+            textDecorationStyle: 'solid',
+          }
+        : {},
+    ]}>
+    {props.children}
+  </Txt>
+)
 
 const styles = StyleSheet.create({
   button: {

@@ -26,7 +26,7 @@ export function PillowButtons () {
           wrapperStyle={{justifyContent: 'flex-start'}}
           iconSrc={require('../assets/img/facebook-light.png')}
           size="large"
-          tintColor={theme.BLUE_DARK}>
+          tintColor={theme.BLUE_DARKER}>
           Login with Facebook
         </PillowButton>
         <View style={{padding: 5}} />

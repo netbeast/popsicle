@@ -1,5 +1,7 @@
+export * from './Controls'
 export * from './PillowButtons'
 export * from './Miscellanea'
 export * from './Inputs'
 export * from './ColorSamples'
 export * from './TextSamples'
+export * from './Legacy'

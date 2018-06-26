@@ -4,8 +4,6 @@ import { Toggle } from 'react-powerplug'
 
 import {Bold, Card, CheckBox, ExpandableCard, TextSmall, Txt, Slider, Switch} from '../components/index'
 
-import * as theme from '../components/theme'
-
 export function Miscellanea () {
   return (
     <View>
