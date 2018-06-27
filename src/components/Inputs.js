@@ -1,10 +1,5 @@
-
 import React, {Component} from 'react'
-import {
-  StyleSheet,
-  TextInput,
-  View,
-} from 'react-native'
+import {StyleSheet, TextInput, View} from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons'
 import idx from 'idx'
 
@@ -16,7 +11,7 @@ export class TxtInput extends Component {
     onChangeText: () => {},
   }
 
-  state = { filled: !!this.props.value }
+  state = {filled: !!this.props.value}
 
   clearText = () => {
     this.props.onChangeText('')
@@ -28,7 +23,9 @@ export class TxtInput extends Component {
     return (
       <View style={[styles.txtInputBackground, this.props.backgroundStyle]}>
         <TextInput
-          ref={n => { this.node = n }}
+          ref={n => {
+            this.node = n
+          }}
           placeholderTextColor="#9BA3B0"
           style={[styles.txtInput, this.props.style]}
           underlineColorAndroid="transparent"
@@ -38,12 +35,14 @@ export class TxtInput extends Component {
             this.props.onChangeText(value)
           }}
         />
-        {this.state.filled ? <Icon
-          style={styles.txtInputIcon}
-          color="white"
-          onPress={() => this.clearText()}
-          name="ios-close"
-        /> : null}
+        {this.state.filled ? (
+          <Icon
+            style={styles.txtInputIcon}
+            color="white"
+            onPress={() => this.clearText()}
+            name="ios-close"
+          />
+        ) : null}
       </View>
     )
   }
@@ -92,28 +91,28 @@ export class PasswordInput extends Component {
     const {color: ignoredProp, ...viewStyle} = style || {}
 
     return (
-        <View style={[styles.txtInputBackground, this.props.backgroundStyle]}>
-          <TextInput
-            ref={node => {
-              this.input = node
-            }}
-            style={[styles.txtInput, style, {flex: 1, fontFamily: 'Open Sans'}]}
-            focus={focus}
-            underlineColorAndroid="transparent"
-            secureTextEntry={secureTextEntry}
-            placeholder={placeholder}
-            {...props}
-          />
-            <Icon
-              style={{
-                fontSize: 22,
-                marginRight: 12,
-              }}
-              color="#59CBE8"
-              onPress={() => this.setState({secureTextEntry: !secureTextEntry})}
-              name={secureTextEntry ? 'md-eye' : 'md-eye-off'}
-            />
-        </View>
+      <View style={[styles.txtInputBackground, this.props.backgroundStyle]}>
+        <TextInput
+          ref={node => {
+            this.input = node
+          }}
+          style={[styles.txtInput, style, {flex: 1, fontFamily: 'Open Sans'}]}
+          focus={focus}
+          underlineColorAndroid="transparent"
+          secureTextEntry={secureTextEntry}
+          placeholder={placeholder}
+          {...props}
+        />
+        <Icon
+          style={{
+            fontSize: 22,
+            marginRight: 12,
+          }}
+          color="#59CBE8"
+          onPress={() => this.setState({secureTextEntry: !secureTextEntry})}
+          name={secureTextEntry ? 'md-eye' : 'md-eye-off'}
+        />
+      </View>
     )
   }
 }

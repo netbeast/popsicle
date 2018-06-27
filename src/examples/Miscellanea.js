@@ -1,9 +1,21 @@
 import React from 'react'
 import {Dimensions, Platform, View, StyleSheet} from 'react-native'
 import {TabNavigator} from 'react-navigation'
-import { Toggle } from 'react-powerplug'
+import {Toggle} from 'react-powerplug'
 
-import {Bold, Card, CheckBox, ExpandableCard, TextSmall, Txt, TextPlaceholder, Screen, Slider, Switch, PagingDots} from '../components/index'
+import {
+  Bold,
+  Card,
+  CheckBox,
+  ExpandableCard,
+  TextSmall,
+  Txt,
+  TextPlaceholder,
+  Screen,
+  Slider,
+  Switch,
+  PagingDots,
+} from '../components/index'
 import * as theme from '../components/theme'
 
 export function Miscellanea () {
@@ -12,18 +24,16 @@ export function Miscellanea () {
       <View style={styles.row}>
         <TextSmall>{'<CheckBox /> '} </TextSmall>
         <Toggle initial>
-          {({ on, toggle }) => (
-            <CheckBox value={on} onValueChange={toggle} />
-          )}
+          {({on, toggle}) => <CheckBox value={on} onValueChange={toggle} />}
         </Toggle>
       </View>
 
       <View style={styles.row}>
-      <TextSmall>{'<Switch />'} Customized with colors depending on mobile OS </TextSmall>
+        <TextSmall>
+          {'<Switch />'} Customized with colors depending on mobile OS{' '}
+        </TextSmall>
         <Toggle initial>
-          {({ on, toggle }) => (
-            <Switch value={on} onValueChange={toggle} />
-          )}
+          {({on, toggle}) => <Switch value={on} onValueChange={toggle} />}
         </Toggle>
       </View>
 
@@ -67,7 +77,6 @@ const CardSample = () => (
     <TextPlaceholder style={{width: Math.random() * 200, margin: 5}} />
   </Card>
 )
-
 
 const TabSample = TabNavigator(
   {
@@ -121,4 +130,3 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
 })
-

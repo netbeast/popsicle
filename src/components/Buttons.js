@@ -1,12 +1,5 @@
-
 import React from 'react'
-import {
-  Image,
-  Linking,
-  StyleSheet,
-  TouchableOpacity,
-  View,
-} from 'react-native'
+import {Image, Linking, StyleSheet, TouchableOpacity, View} from 'react-native'
 import {Txt, Bold} from './Text'
 import * as theme from './theme'
 

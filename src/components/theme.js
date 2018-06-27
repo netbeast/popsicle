@@ -20,17 +20,13 @@ export const GREY_SEMI_LIGHT = 'rgb(115, 115, 115)'
 export const GREY_LIGHT = 'rgb(194, 195, 200)'
 export const GREY_LIGHTER = 'rgb(241, 242, 247)'
 
-
 export const __PROD_TEAL__ = 'rgb(1, 160, 188)'
 export const __PROD_PURPLE__ = 'rgb(140, 61, 255)'
 export const __DEV_TEAL__ = __PROD_PURPLE__
 export const __DEV_PURPLE__ = __PROD_TEAL__
 
 // Apparently the name of a f** color
-export const TEAL = __DEV__
-  ? __DEV_TEAL__
-  : __PROD_TEAL__
-
+export const TEAL = __DEV__ ? __DEV_TEAL__ : __PROD_TEAL__
 
 export const TEAL_SEMI_TRANSPARENT = __DEV__
   ? 'rgba(140, 61, 255, 0.5)'
@@ -52,9 +48,7 @@ export const GREEN_DARK = 'rgb(76,175,80)'
 export const ORANGE = 'rgb(255, 166, 102)'
 export const PINK = 'rgb(255, 63, 213)'
 
-export const PURPLE = __DEV__
-  ? __DEV_PURPLE__
-  : __PROD_PURPLE__
+export const PURPLE = __DEV__ ? __DEV_PURPLE__ : __PROD_PURPLE__
 
 export const PURPLE_DARK = 'rgb(124, 63, 255)'
 export const RED = 'rgb(194, 61, 85)'

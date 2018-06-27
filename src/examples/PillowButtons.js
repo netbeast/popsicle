@@ -35,12 +35,18 @@ export function PillowButtons () {
           size="large"
           iconSrc={require('../assets/img/google-light.png')}
           tintColor={theme.RED}>
-            Login with Google
+          Login with Google
         </PillowButton>
         <View style={{padding: 5}} />
-        <PillowButton> Text overflow that should not happen in the app </PillowButton>
+        <PillowButton>
+          {' '}
+          Text overflow that should not happen in the app{' '}
+        </PillowButton>
         <View style={{padding: 5}} />
-        <PillowButton size="large"> Text overflow that should not happen in the app  </PillowButton>
+        <PillowButton size="large">
+          {' '}
+          Text overflow that should not happen in the app{' '}
+        </PillowButton>
         <View style={{padding: 5}} />
         <PillowButton size="small"> Small </PillowButton>
         <View style={{padding: 5}} />
@@ -52,12 +58,10 @@ export function PillowButtons () {
           size="large"
           iconSrc={require('../assets/img/favicon-white.png')}
           tintColor={theme.GREY_LIGHT}>
-            Disabled with icon
+          Disabled with icon
         </PillowButton>
         <View style={{padding: 5}} />
-        <PillowButton
-          disabled
-          tintColor={theme.GREY_LIGHT}>
+        <PillowButton disabled tintColor={theme.GREY_LIGHT}>
           Disabled
         </PillowButton>
       </View>

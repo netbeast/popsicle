@@ -1,4 +1,3 @@
-
 /**
  * @flow
  */
@@ -20,18 +19,20 @@ export class Snackbar extends React.Component {
     return (
       <DropShadow>
         <View style={styles.snackbar}>
-          <View style={[styles.ribbon, {backgroundColor: this.props.tintColor}]} />
+          <View
+            style={[styles.ribbon, {backgroundColor: this.props.tintColor}]}
+          />
           <View style={{flex: 1, padding: 10}}>
             <Txt> {this.props.message} </Txt>
           </View>
 
-          {this.props.action
-            ? <TouchableOpacity onPress={this.props.onActionPressed}>
-                <View style={styles.action}>
-                  <Bold style={{color: theme.TEAL}}> {this.props.action} </Bold>
-                </View>
-              </TouchableOpacity>
-            : null}
+          {this.props.action ? (
+            <TouchableOpacity onPress={this.props.onActionPressed}>
+              <View style={styles.action}>
+                <Bold style={{color: theme.TEAL}}> {this.props.action} </Bold>
+              </View>
+            </TouchableOpacity>
+          ) : null}
         </View>
       </DropShadow>
     )

@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-  Platform,
-  Switch as NativeSwitch,
-} from 'react-native'
+import {Platform, Switch as NativeSwitch} from 'react-native'
 import * as theme from './theme'
 
 export function Switch (props) {

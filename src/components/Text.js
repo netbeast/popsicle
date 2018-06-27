@@ -1,10 +1,5 @@
-
 import React from 'react'
-import {
-  Platform,
-  StyleSheet,
-  Text,
-} from 'react-native'
+import {Platform, StyleSheet, Text} from 'react-native'
 
 import * as theme from './theme'
 
@@ -159,7 +154,8 @@ const styles = StyleSheet.create({
   semibold: {
     color: theme.GREY,
     fontWeight: '600',
-    fontFamily: Platform.OS === 'web' ? theme.REGULAR_FONT : theme.SEMI_BOLD_FONT,
+    fontFamily:
+      Platform.OS === 'web' ? theme.REGULAR_FONT : theme.SEMI_BOLD_FONT,
   },
   bold: {
     color: theme.GREY,

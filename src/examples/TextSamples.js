@@ -1,6 +1,13 @@
 import React from 'react'
 import {View} from 'react-native'
-import {Bold, Hr, TextTitle, TextBody, TextSmall, TextTiny} from '../components/index'
+import {
+  Bold,
+  Hr,
+  TextTitle,
+  TextBody,
+  TextSmall,
+  TextTiny,
+} from '../components/index'
 
 export function TextSamples () {
   return (

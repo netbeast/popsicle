@@ -6,7 +6,7 @@ import {Small, TxtInput, PasswordInput, EmailInput} from '../components/index'
 export class Inputs extends React.Component {
   constructor () {
     super()
-    this.state = { testInput: 'Filled text input' }
+    this.state = {testInput: 'Filled text input'}
   }
 
   render () {
@@ -17,18 +17,16 @@ export class Inputs extends React.Component {
         </Small>
         <TxtInput
           placeholder="Some placeholder text"
-          backgroundStyle={{backgroundColor: 'transparent'}} />
-        <Small style={{paddingTop: 15, paddingBottom: 5}}>
-          TextInput
-        </Small>
-        <TxtInput value={this.state.testInput} onChangeText={v => this.setState({testInput: v})} />
-        <Small style={{paddingTop: 15, paddingBottom: 5}}>
-          PasswordInput
-        </Small>
+          backgroundStyle={{backgroundColor: 'transparent'}}
+        />
+        <Small style={{paddingTop: 15, paddingBottom: 5}}>TextInput</Small>
+        <TxtInput
+          value={this.state.testInput}
+          onChangeText={v => this.setState({testInput: v})}
+        />
+        <Small style={{paddingTop: 15, paddingBottom: 5}}>PasswordInput</Small>
         <PasswordInput />
-        <Small style={{paddingTop: 15, paddingBottom: 5}}>
-          EmailInput
-        </Small>
+        <Small style={{paddingTop: 15, paddingBottom: 5}}>EmailInput</Small>
         <EmailInput />
       </View>
     )

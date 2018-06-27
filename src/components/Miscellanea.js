@@ -1,4 +1,3 @@
-
 import React, {Component} from 'react'
 import {
   Animated,
@@ -184,7 +183,6 @@ export const Setting = ({
   </View>
 )
 
-
 export const TouchableRipple = ({children, style, ...props}) => {
   if (process.env.NODE_ENV === 'test' || Platform.OS === 'web') {
     return (
@@ -204,8 +202,14 @@ export const TouchableRipple = ({children, style, ...props}) => {
   )
 }
 
-
-function shadow ({ color, opacity, radius, offsetWidth, offsetHeight, elevation }) {
+function shadow ({
+  color,
+  opacity,
+  radius,
+  offsetWidth,
+  offsetHeight,
+  elevation,
+}) {
   return Platform.select({
     ios: {
       shadowColor: color,

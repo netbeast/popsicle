@@ -13,16 +13,19 @@ export function SnackbarSamples () {
       <View style={{padding: 10}} />
       <Snackbar
         tintColor={theme.RED}
-        message="It has a `tintColor` depending on the tone" />
+        message="It has a `tintColor` depending on the tone"
+      />
       <View style={{padding: 10}} />
       <Snackbar
         action="Do it"
         onActionPressed={() => window.alert('Action pressed')}
-        message="And may have an associated action" />
+        message="And may have an associated action"
+      />
       <View style={{padding: 10}} />
       <Snackbar
         tintColor={theme.GREEN}
-        message="They should disappear automatically, but that's up to the SnackbarProvider" />
+        message="They should disappear automatically, but that's up to the SnackbarProvider"
+      />
     </View>
   )
 }

@@ -4,7 +4,6 @@ import {Platform, View} from 'react-native'
 import {TextSmall, TextTiny, TextTitle} from '../components'
 import * as theme from '../components/theme'
 
-
 export function ColorSamples () {
   return (
     <View style={{padding: 20}}>
@@ -28,10 +27,10 @@ export function ColorSamples () {
   )
 }
 
-
 const ColorSample = props => (
   <View
-      style={[{
+    style={[
+      {
         shadowOpacity: 0.5,
         shadowOffset: {width: 2, height: 2},
         borderRadius: 5,
@@ -40,10 +39,14 @@ const ColorSample = props => (
         height: 100,
         margin: 20,
         backgroundColor: props.color,
-    }, Platform.OS === 'web' ? {
-      boxShadow: '0 0 1px rgba(0,0,0,.5)',
-    } : {}]}>
-      <TextSmall>{props.name}</TextSmall>
-      <TextTiny>{props.color}</TextTiny>
+      },
+      Platform.OS === 'web'
+        ? {
+            boxShadow: '0 0 1px rgba(0,0,0,.5)',
+          }
+        : {},
+    ]}>
+    <TextSmall>{props.name}</TextSmall>
+    <TextTiny>{props.color}</TextTiny>
   </View>
 )

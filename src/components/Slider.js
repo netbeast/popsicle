@@ -1,9 +1,5 @@
-
 import React from 'react'
-import {
-  Platform,
-  Slider as NativeSlider,
-} from 'react-native'
+import {Platform, Slider as NativeSlider} from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import * as theme from './theme'
