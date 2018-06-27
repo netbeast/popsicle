@@ -1,3 +1,4 @@
+export * from './ImagesShowcase'
 export * from './SnackbarSamples'
 export * from './Controls'
 export * from './PillowButtons'

@@ -27,6 +27,7 @@
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}",
+      "!**/assets/**",
       "!**/node_modules/**",
       "!**/scripts/**",
       "!**/meta/**",

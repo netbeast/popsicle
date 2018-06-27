@@ -10,12 +10,12 @@ export function SnackbarSamples () {
       <Title> Snackbar samples</Title>
       <View style={{padding: 5}} />
       <Snackbar message="This is a Snackbar" />
-      <View style={{padding: 10}} />
+      <View style={{padding: 5}} />
       <Snackbar
         tintColor={theme.RED}
         message="It has a `tintColor` depending on the tone"
       />
-      <View style={{padding: 10}} />
+      <View style={{padding: 5}} />
       <Snackbar
         action="Do it"
         onActionPressed={() => window.alert('Action pressed')}

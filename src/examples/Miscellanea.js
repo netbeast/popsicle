@@ -72,9 +72,9 @@ export function Miscellanea () {
 
 const CardSample = () => (
   <Card>
-    <TextPlaceholder style={{width: Math.random() * 200, margin: 5}} />
-    <TextPlaceholder style={{width: Math.random() * 200, margin: 5}} />
-    <TextPlaceholder style={{width: Math.random() * 200, margin: 5}} />
+    <TextPlaceholder style={{width: 120, margin: 5}} />
+    <TextPlaceholder style={{width: 80, margin: 5}} />
+    <TextPlaceholder style={{width: 140, margin: 5}} />
   </Card>
 )
 

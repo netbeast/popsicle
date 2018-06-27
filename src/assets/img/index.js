@@ -10,7 +10,7 @@ export * from './household-rooms'
 export * from './ui'
 export * from './widgets'
 export * from './services'
-export * as Brands from './brands' // eslint-disable-line
+// export * as Brands from './brands' // eslint-disable-line
 
 export {default as ColorWheel} from './color-wheel.png'
 export {default as DarkRoom} from './dark-room.png'
