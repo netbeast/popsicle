@@ -50,7 +50,7 @@ export function Miscellanea () {
       </ExpandableCard>
 
       <Txt>Here some possibly outdated {'<PagingDots />'}</Txt>
-      <View style={{width: 300, height: 300, borderColor: theme.GREY_LIGHTER, borderRadius: 10, borderWidth: 1}}>
+      <View style={styles.pagingDotsSample}>
         <TabSample />
       </View>
 
@@ -108,6 +108,13 @@ const TabSample = TabNavigator(
 )
 
 const styles = StyleSheet.create({
+  pagingDotsSample: {
+    width: 300,
+    height: 300,
+    borderColor: theme.GREY_LIGHTER,
+    borderRadius: 10,
+    borderWidth: 1,
+  },
   row: {
     marginVertical: 10,
     alignItems: 'center',

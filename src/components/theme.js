@@ -66,7 +66,7 @@ export const BOLD_FONT = 'Open Sans Bold'
 export const REGULAR_FONT = 'Open Sans'
 export const SEMI_BOLD_FONT = 'Open Sans Semibold'
 
-export const BORDER_RADIUS = 10
+export const BORDER_RADIUS = 8
 
 export const BRIGHT_OVERLAY = {
   backgroundColor: 'white',

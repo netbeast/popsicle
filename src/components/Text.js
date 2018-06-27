@@ -51,10 +51,11 @@ export const Title = ({
     {...props}
     style={[
       {
-        backgroundColor: 'transparent',
+        fontFamily: theme.REGULAR_FONT,
+        fontWeight: '600',
         color: color || theme.GREY,
-        fontFamily: theme.BOLD_FONT,
         fontSize: fontSize || 36,
+        backgroundColor: 'transparent',
       },
       style,
     ]}>
@@ -85,6 +86,7 @@ export const TextTitle = ({
       {
         color,
         fontFamily: theme.REGULAR_FONT,
+        fontWeight: '600',
         fontSize: 20,
         lineHeight: 24,
         backgroundColor: 'transparent',
