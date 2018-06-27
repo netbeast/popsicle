@@ -2,7 +2,7 @@
  * @flow
  */
 import React from 'react'
-import {DrawerNavigator, StackNavigator, withNavigation} from 'react-navigation'
+import {DrawerNavigator, StackNavigator} from 'react-navigation'
 import {kebabCase} from 'lodash'
 
 import * as examples from './examples'

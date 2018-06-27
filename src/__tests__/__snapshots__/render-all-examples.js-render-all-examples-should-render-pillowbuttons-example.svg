@@ -201,7 +201,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="-77" y="10" width="321" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Text overflow that should not happen in the app </p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="82" y="10" width="4" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
          </g>
 
        </g>
@@ -229,7 +229,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="-50" y="10" width="325" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Text overflow that should not happen in the app  </p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="110" y="10" width="4" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
          </g>
 
        </g>

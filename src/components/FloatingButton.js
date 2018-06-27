@@ -12,9 +12,13 @@ import * as theme from './theme'
 import {AnimatableView, TouchableRipple, Txt} from './'
 
 export class FloatingButton extends Component {
+  static defaultProps = {
+    active: false,
+  }
+
   constructor (props) {
     super(props)
-    this.state = {active: false}
+    this.state = {active: this.props.active}
     this.main = null
 
     let k = 0

@@ -14,7 +14,7 @@
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="58" width="320" height="31"/>
 
    <g transform='translate(0, 58)'>
-     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="2" width="68" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Customized with colors depending on mobile OS </p></body></foreignObject>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="2" width="68" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
      <rect type="RCTSwitch" fill-opacity="0.1" stroke-width="1" stroke="black" x="68" y="0" width="51" height="31"/>
    </g>
 
@@ -24,9 +24,9 @@
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="200" width="300" height="94"/>
 
    <g transform='translate(10, 200)'>
-     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="180" y="16" width="99" height="14"/>
-     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="136" y="40" width="143" height="14"/>
-     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="209" y="64" width="70" height="14"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="136" y="16" width="143" height="14"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="81" y="40" width="198" height="14"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="208" y="64" width="71" height="14"/>
    </g>
 
    <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="299" width="110" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> component </p></body></foreignObject>
@@ -70,9 +70,9 @@
                <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="5" width="278" height="94"/>
 
                <g transform='translate(10, 5)'>
-                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="78" y="16" width="179" height="14"/>
-                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="70" y="40" width="187" height="14"/>
-                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="80" y="64" width="177" height="14"/>
+                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="146" y="16" width="111" height="14"/>
+                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="255" y="40" width="2" height="14"/>
+                 <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="81" y="64" width="176" height="14"/>
                </g>
 
              </g>
