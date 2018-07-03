@@ -8220,7 +8220,7 @@ react-native-safe-module@^1.1.0:
   dependencies:
     dedent "^0.6.0"
 
-react-native-scripts@next:
+react-native-scripts@^1.2.0-alpha.5:
   version "1.2.0-alpha.5"
   resolved "https://registry.yarnpkg.com/react-native-scripts/-/react-native-scripts-1.2.0-alpha.5.tgz#30e70f10ea4b638980bb6329c03717c7bb9318f4"
   dependencies:
