@@ -13,7 +13,7 @@ const babelLoaderConfiguration = {
   test: /\.js$/,
   // Add every directory that needs to be compiled by Babel during the build.
   include: [
-    path.resolve(appDirectory, 'src'),
+    path.resolve(appDirectory),
     path.resolve(appDirectory, 'node_modules/react-navigation'),
     path.resolve(appDirectory, 'node_modules/react-native-animatable'),
     path.resolve(appDirectory, 'node_modules/react-native-big-slider'),
@@ -38,7 +38,7 @@ const babelLoaderConfiguration = {
         'expo-web',
         'react-native-web',
         'transform-decorators-legacy',
-        ['transform-runtime', { helpers: false, polyfill: false, regenerator: true }],
+        ['transform-runtime', {helpers: false, polyfill: false, regenerator: true}],
       ],
       // The 'react-native' preset is recommended to match React Native's packager
       presets: ['react-native'],
@@ -80,7 +80,7 @@ const ttfLoaderConfiguration = {
 
 module.exports = {
   // your web-specific entry file
-  entry: path.resolve(appDirectory, 'src/index.js'),
+  entry: path.resolve(appDirectory, 'index.web.js'),
   devtool: 'eval',
 
   // configures where the build ends up

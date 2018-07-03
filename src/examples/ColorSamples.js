@@ -8,7 +8,7 @@ export function ColorSamples () {
   return (
     <View style={{padding: 20}}>
       <TextTitle>Other colors</TextTitle>
-      <View style={{flexDirection: 'row'}}>
+      <View style={{flexDirection: 'row', flexWrap: 'wrap'}}>
         <ColorSample name="GREY" color={theme.GREY} />
         <ColorSample name="GREY_LIGHTER" color={theme.GREY_LIGHTER} />
       </View>
@@ -42,8 +42,8 @@ const ColorSample = props => (
       },
       Platform.OS === 'web'
         ? {
-            boxShadow: '0 0 1px rgba(0,0,0,.5)',
-          }
+          boxShadow: '0 0 1px rgba(0,0,0,.5)',
+        }
         : {},
     ]}>
     <TextSmall>{props.name}</TextSmall>

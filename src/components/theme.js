@@ -55,10 +55,10 @@ export const RED = 'rgb(194, 61, 85)'
 export const YELLOW = 'rgb(232, 255, 124)'
 export const YELLOW_DARK = 'rgb(232, 211, 124)'
 
-export const PARAGRAPH_FONT = 'Open Sans'
-export const BOLD_FONT = 'Open Sans Bold'
-export const REGULAR_FONT = 'Open Sans'
-export const SEMI_BOLD_FONT = 'Open Sans Semibold'
+export const PARAGRAPH_FONT = Platform.OS === 'web' ? 'Open Sans' : undefined
+export const BOLD_FONT = Platform.OS === 'web' ? 'Open Sans Bold' : undefined
+export const REGULAR_FONT = Platform.OS === 'web' ? 'Open Sans' : undefined
+export const SEMI_BOLD_FONT = Platform.OS === 'web' ? 'Open Sans Semibold' : undefined
 
 export const BORDER_RADIUS = 8
 

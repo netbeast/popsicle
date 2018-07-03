@@ -49,12 +49,7 @@ export class TxtInput extends Component {
 }
 
 export const EmailInput = props => (
-  <View
-    style={{
-      alignItems: 'center',
-      flex: 1,
-      flexDirection: 'row',
-    }}>
+  <View>
     {props.hideLabel ? null : (
       <Title fontSize={20} color={idx(props, _ => _.style.color)}>
         {props.label}
@@ -96,7 +91,7 @@ export class PasswordInput extends Component {
           ref={node => {
             this.input = node
           }}
-          style={[styles.txtInput, style, {flex: 1, fontFamily: 'Open Sans'}]}
+          style={[styles.txtInput, style, {flex: 1}]}
           focus={focus}
           underlineColorAndroid="transparent"
           secureTextEntry={secureTextEntry}

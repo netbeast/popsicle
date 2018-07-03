@@ -1,7 +1,7 @@
 import React from 'react'
 import {View} from 'react-native'
-import {ColorWheel} from 'react-native-color-wheel'
-import BigSlider from 'react-native-big-slider'
+// import {ColorWheel} from 'react-native-color-wheel'
+// import BigSlider from 'react-native-big-slider'
 import {State} from 'react-powerplug'
 
 import {FloatingButton, FloatingButtonItem} from '../components/'
@@ -11,25 +11,10 @@ export function Controls () {
   return (
     <View
       style={{
-        padding: 20,
-        flexDirection: 'row',
         justifyContent: 'space-around',
+        width: 300,
+        height: 300
       }}>
-      <View style={{width: 300, height: 300}}>
-        <ColorWheel />
-      </View>
-      <View style={{width: 300, height: 300}}>
-        <State initial={{loading: false, data: null}}>
-          {({state, setState}) => (
-            <BigSlider
-              value={state.val}
-              onValueChange={val => {
-                setState({val})
-              }}
-            />
-          )}
-        </State>
-      </View>
       <FloatingButton
         active
         name="ios-add"
