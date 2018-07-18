@@ -27,7 +27,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="167" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="47" y="10" width="73" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Next Time </p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="54" y="10" width="61" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Next Time</p></body></foreignObject>
          </g>
 
        </g>
@@ -55,7 +55,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="62" y="10" width="100" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> A large button </p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="72" y="10" width="81" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">A large button</p></body></foreignObject>
          </g>
 
        </g>
@@ -83,7 +83,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="111" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="35" y="10" width="43" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Small </p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="36" y="10" width="39" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Small </p></body></foreignObject>
          </g>
 
        </g>
@@ -111,7 +111,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="74" height="34"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="3" width="36" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Mini </p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="3" width="35" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Mini </p></body></foreignObject>
          </g>
 
        </g>
@@ -144,7 +144,7 @@
 
          <g transform='translate(0, 0)'>
            <rect type="Image" fill-opacity="0.1" stroke-width="1" stroke="black" x="15" y="14" width="20" height="20"/>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="40" y="10" width="133" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Login with Facebook</p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="40" y="10" width="120" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Login with Facebook</p></body></foreignObject>
          </g>
 
        </g>
@@ -173,7 +173,7 @@
 
          <g transform='translate(0, 0)'>
            <rect type="Image" fill-opacity="0.1" stroke-width="1" stroke="black" x="15" y="14" width="20" height="20"/>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="40" y="10" width="117" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Login with Google</p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="40" y="10" width="107" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Login with Google</p></body></foreignObject>
          </g>
 
        </g>
@@ -257,7 +257,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="112" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="35" y="10" width="43" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Small </p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="36" y="10" width="40" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Small </p></body></foreignObject>
          </g>
 
        </g>
@@ -317,8 +317,8 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <rect type="Image" fill-opacity="0.1" stroke-width="1" stroke="black" x="42" y="14" width="20" height="20"/>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="67" y="10" width="120" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Disabled with icon</p></body></foreignObject>
+           <rect type="Image" fill-opacity="0.1" stroke-width="1" stroke="black" x="49" y="14" width="20" height="20"/>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="74" y="10" width="106" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Disabled with icon</p></body></foreignObject>
          </g>
 
        </g>
@@ -346,7 +346,7 @@
          <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="48"/>
 
          <g transform='translate(0, 0)'>
-           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="56" y="10" width="57" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Disabled</p></body></foreignObject>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="59" y="10" width="50" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Disabled</p></body></foreignObject>
          </g>
 
        </g>

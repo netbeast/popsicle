@@ -4,9 +4,9 @@
  <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="320" height="480"/>
 
  <g transform='translate(0, 0)'>
-   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="20" width="150" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">This is an unstyled Link</p></body></foreignObject>
-   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="48" width="166" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">This is an underlined Link</p></body></foreignObject>
-   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="76" width="238" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">This is an underlined Link with styles</p></body></foreignObject>
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="20" width="136" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">This is an unstyled Link</p></body></foreignObject>
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="48" width="148" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">This is an underlined Link</p></body></foreignObject>
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="76" width="212" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">This is an underlined Link with styles</p></body></foreignObject>
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="20" y="104" width="280" height="74"/>
 
    <g transform='translate(20, 104)'>

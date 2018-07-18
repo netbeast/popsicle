@@ -7,15 +7,15 @@
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="10" width="320" height="28"/>
 
    <g transform='translate(0, 10)'>
-     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="93" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
-     <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(140, 61, 255)" x="93" y="2" width="25" height="25"/>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="86" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
+     <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(140, 61, 255)" x="86" y="2" width="25" height="25"/>
    </g>
 
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="58" width="320" height="31"/>
 
    <g transform='translate(0, 58)'>
-     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="2" width="68" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
-     <rect type="RCTSwitch" fill-opacity="0.1" stroke-width="1" stroke="black" x="68" y="0" width="51" height="31"/>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="2" width="63" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
+     <rect type="RCTSwitch" fill-opacity="0.1" stroke-width="1" stroke="black" x="63" y="0" width="51" height="31"/>
    </g>
 
    <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="99" width="4" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
@@ -39,16 +39,16 @@
        <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="278" height="84"/>
 
        <g transform='translate(0, 0)'>
-         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="152" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Press on top of the box</p></body></foreignObject>
-         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="28" width="250" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">To see how the content is compressed</p></body></foreignObject>
-         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="56" width="145" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">... Some more content</p></body></foreignObject>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="129" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Press on top of the box</p></body></foreignObject>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="28" width="212" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">To see how the content is compressed</p></body></foreignObject>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="56" width="123" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">... Some more content</p></body></foreignObject>
        </g>
 
      </g>
 
    </g>
 
-   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="443" width="195" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"><PagingDots /></p></body></foreignObject>
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="443" width="166" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"><PagingDots /></p></body></foreignObject>
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="471" width="300" height="300"/>
 
    <g transform='translate(0, 471)'>
@@ -97,7 +97,7 @@
 
    </g>
 
-   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="771" width="189" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"><Screen /></p></body></foreignObject>
+   <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="771" width="170" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"><Screen /></p></body></foreignObject>
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="799" width="320" height="0"/>
  </g>
 

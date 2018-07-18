@@ -9,10 +9,20 @@ import {Txt, Bold} from './Text'
 import {DropShadow} from './Miscellanea'
 import * as theme from './theme'
 
+type SnackbarProps = {
+  message: string,
+  action?: string,
+  tintColor: string,
+  onActionPressed: () => void,
+  hideSnackbar: () => void,
+}
+
 export class Snackbar extends React.Component {
   static defaultProps = {
+    message: '',
     tintColor: theme.TEAL,
     onActionPressed () {},
+    hideSnackbar () {},
   }
 
   render () {
@@ -39,6 +49,57 @@ export class Snackbar extends React.Component {
   }
 }
 
+export const SnackbarContext = React.createContext({
+  isSnackbarVisible: false,
+  showSnackbar () {},
+  hideSnackbar () {},
+})
+
+export class SnackbarProvider extends React.Component {
+  constructor () {
+    super()
+    this.state = {
+      isSnackbarVisible: false,
+      snackbarProps: {},
+    }
+
+    this.sharedValues = {
+      showSnackbar: this.showSnackbar.bind(this),
+      hideSnackbar: this.hideSnackbar.bind(this),
+    }
+  }
+
+  State: {
+    isSnackbarVisible: boolean,
+    snackbarProps: SnackbarProps,
+  }
+
+  showSnackbar (snackbarProps) {
+    this.setState({
+      isSnackbarVisible: true,
+      snackbarProps,
+    })
+  }
+
+  hideSnackbar () {
+    this.setState({isSnackbarVisible: false})
+  }
+
+  render () {
+    const {isSnackbarVisible, snackbarProps} = this.state
+
+    return (
+      <SnackbarContext.Provider value={{isSnackbarVisible, ...this.sharedValues}}>
+        {this.props.children}
+        {isSnackbarVisible ?
+        <View style={{flex: 1, position: 'absolute', top: 10, left: 10}}>
+          <Snackbar {...snackbarProps} />
+        </View> : null}
+      </SnackbarContext.Provider>
+    )
+  }
+}
+
 const styles = StyleSheet.create({
   ribbon: {
     position: 'absolute',
@@ -49,6 +110,7 @@ const styles = StyleSheet.create({
   },
   snackbar: {
     flex: 1,
+    backgroundColor: 'white',
     alignItems: 'center',
     paddingLeft: 20,
     borderRadius: theme.BORDER_RADIUS / 2,

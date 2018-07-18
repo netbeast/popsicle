@@ -3,16 +3,17 @@
   "version": "0.1.0",
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
-    "test": "jest",
-    "web": "webpack-dev-server -d --config ./webpack.config.js  --inline --hot --colors --content-base public/",
     "build": "NODE_ENV=production webpack -p --config ./webpack.config.js",
+    "deploy": "gh-pages -d public",
+    "eject": "react-native-scripts eject",
+    "ios": "react-native-scripts ios",
     "lint": "eslint src",
     "prettier": "prettier --write \"src/**/*.js\"",
-    "prettier-eslint": "prettier-eslint --write \"src/**/*.js\""
+    "prettier-eslint": "prettier-eslint --write \"src/**/*.js\"",
+    "start": "react-native-scripts start",
+    "test": "jest",
+    "web": "webpack-dev-server -d --config ./webpack.config.js  --inline --hot --colors --content-base public/"
   },
   "jest": {
     "globals": {
@@ -60,12 +61,12 @@
     "prettier-eslint-cli": "^4.4.0",
     "prettier-miscellaneous": "^1.5.3",
     "react": "16.3.1",
-    "react-dom": "16.0.0",
+    "react-dom": "16.3.1",
     "react-native-animatable": "^1.2.4",
     "react-native-touchable-native-feedback-safe": "netbeast/react-native-touchable-native-feedback-safe",
     "react-native-web": "^0.4.0",
     "react-navigation": "^1.5.8",
-    "react-test-renderer": "16.2.0",
+    "react-test-renderer": "16.3.1",
     "style-loader": "^0.19.0",
     "url-loader": "^1.0.1",
     "webpack": "^3.11.0",
