@@ -17,42 +17,33 @@ export const GREY = 'rgb(46, 48, 58)'
 export const GREY_SEMI_TRANSPARENT = 'rgba(46, 48, 58, 0.4)'
 export const GREY_DARK = 'rgb(34, 34, 34)'
 export const GREY_SEMI_LIGHT = 'rgb(115, 115, 115)'
-export const GREY_LIGHT = 'rgb(194, 195, 200)'
+export const GREY_LIGHT = 'rgb(182, 182, 182)'
 export const GREY_LIGHTER = 'rgb(241, 242, 247)'
 
-export const __PROD_TEAL__ = 'rgb(1, 160, 188)'
-export const __PROD_PURPLE__ = 'rgb(140, 61, 255)'
-export const __DEV_TEAL__ = __PROD_PURPLE__
-export const __DEV_PURPLE__ = __PROD_TEAL__
-
 // Apparently the name of a f** color
-export const TEAL = __DEV__ ? __DEV_TEAL__ : __PROD_TEAL__
+export const TEAL = 'rgb(89, 203, 232)'
+export const PURPLE = 'rgb(116, 116, 193)'
 
-export const TEAL_SEMI_TRANSPARENT = __DEV__
-  ? 'rgba(140, 61, 255, 0.5)'
-  : 'rgba(1, 160, 188, 0.5)'
+export const TEAL_SEMI_TRANSPARENT = 'rgba(89, 203, 232, 0.5)'
 
 export const BLUE = TEAL
-export const BLUE_DARK = 'rgb(68, 120, 250)'
-export const BLUE_DARKER = 'rgb(28, 35, 105)'
-export const BLUE_DARKER2 = 'rgb(48, 55, 125)'
-
+export const BLUE_DARK = 'rgb(23, 43, 77)'
+export const BLUE_DARKER = 'rgb(53, 64, 82)'
 export const BLUE_DARKEST = 'rgb(14, 2, 41)'
+
 export const BLUE_LIGHT = 'rgb(143, 255, 255)'
 export const BLUE_LIGHTER = 'rgb(68, 120, 250)' // Un azul que me gustaba pero que no
 export const BLUE_BRIGHT = 'rgb(0, 222, 229)' // Button Explore FoundDevices
 export const FACEBOOK_BUTTON = 'rgb(44, 68, 144)'
 
-export const GREEN = 'rgb(143, 255, 160)'
+export const GREEN = 'rgb(126, 221, 211)'
 export const GREEN_DARK = 'rgb(76,175,80)'
-export const ORANGE = 'rgb(255, 166, 102)'
+export const ORANGE = 'rgb(255, 170, 99)'
 export const PINK = 'rgb(255, 63, 213)'
 
-export const PURPLE = __DEV__ ? __DEV_PURPLE__ : __PROD_PURPLE__
-
 export const PURPLE_DARK = 'rgb(124, 63, 255)'
-export const RED = 'rgb(194, 61, 85)'
-export const YELLOW = 'rgb(232, 255, 124)'
+export const RED = 'rgb(255, 114, 118)'
+export const YELLOW = 'rgb(251, 216, 114)'
 export const YELLOW_DARK = 'rgb(232, 211, 124)'
 
 export const PARAGRAPH_FONT = Platform.OS === 'web' ? 'Open Sans' : undefined
