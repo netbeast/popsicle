@@ -36,12 +36,19 @@ export class TxtInput extends Component {
           }}
         />
         {this.state.filled ? (
-          <Icon
-            style={styles.txtInputIcon}
-            color="white"
-            onPress={() => this.clearText()}
-            name="ios-close"
-          />
+          <View style={{
+          	  borderRadius: 16,
+    		  width: 28,
+    		  height: 28,
+    		  overflow: 'hidden'
+    		}}>
+            <Icon
+              style={styles.txtInputIcon}
+              color="white"
+              onPress={() => this.clearText()}
+              name="ios-close"
+            />
+          </View>
         ) : null}
       </View>
     )
@@ -131,7 +138,7 @@ const styles = StyleSheet.create({
   txtInputIcon: {
     fontSize: 26,
     backgroundColor: theme.GREY_LIGHT,
-    borderRadius: 15,
+    borderRadius: 16,
     width: 28,
     height: 28,
     textAlign: 'center',
