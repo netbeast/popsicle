@@ -63,6 +63,7 @@ export const EmailInput = props => (
       </Title>
     )}
     <TxtInput
+       style={[styles.txtInput, props.style]}
       autoCorrect={!!props.autoCorrect}
       keyboardType="email-address"
       placeholder={props.placeholder}
