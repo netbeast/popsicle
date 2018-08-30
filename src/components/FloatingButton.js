@@ -220,7 +220,7 @@ const styles = StyleSheet.create({
   },
   floatingButtonItemWrapper: {
     padding: 6,
-    paddingRight: 32,
+    paddingRight: 20,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'flex-end',
