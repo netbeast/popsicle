@@ -180,7 +180,7 @@ const BUTTON_ITEM_SIZE = 42
 
 const styles = StyleSheet.create({
   floatingFrame: {
-    paddingBottom: 22,
+    paddingBottom: 9,
     bottom: 0,
     position: 'absolute',
     justifyContent: 'flex-end',
@@ -229,7 +229,7 @@ const styles = StyleSheet.create({
     ...theme.SHADOW_BOX,
     borderRadius: BUTTON_SIZE / 2,
     position: 'absolute',
-    bottom: 32,
+    bottom: 24,
     height: BUTTON_SIZE,
     width: BUTTON_SIZE,
     justifyContent: 'center',
