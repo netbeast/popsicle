@@ -32,14 +32,14 @@
 
      <g transform='translate(20, 20)'>
        <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="36" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">TEAL</p></body></foreignObject>
-       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="84" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(140, 61, 255)</p></body></foreignObject>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="84" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(89, 203, 232)</p></body></foreignObject>
      </g>
 
      <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="180" y="20" width="120" height="100"/>
 
      <g transform='translate(180, 20)'>
        <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="102" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">BLUE_DARKER</p></body></foreignObject>
-       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="78" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(28, 35, 105)</p></body></foreignObject>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="72" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(53, 64, 82)</p></body></foreignObject>
      </g>
 
      <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="340" y="20" width="120" height="100"/>
@@ -53,35 +53,35 @@
 
      <g transform='translate(500, 20)'>
        <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="29" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">RED</p></body></foreignObject>
-       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="78" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(194, 61, 85)</p></body></foreignObject>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(255, 114, 118)</p></body></foreignObject>
      </g>
 
      <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="660" y="20" width="120" height="100"/>
 
      <g transform='translate(660, 20)'>
        <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="59" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">ORANGE</p></body></foreignObject>
-       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(255, 166, 102)</p></body></foreignObject>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="84" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(255, 170, 99)</p></body></foreignObject>
      </g>
 
      <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="820" y="20" width="120" height="100"/>
 
      <g transform='translate(820, 20)'>
        <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="47" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">GREEN</p></body></foreignObject>
-       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(143, 255, 160)</p></body></foreignObject>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(126, 221, 211)</p></body></foreignObject>
      </g>
 
      <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="980" y="20" width="120" height="100"/>
 
      <g transform='translate(980, 20)'>
        <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="59" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">YELLOW</p></body></foreignObject>
-       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(232, 255, 124)</p></body></foreignObject>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(251, 216, 114)</p></body></foreignObject>
      </g>
 
      <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="1140" y="20" width="120" height="100"/>
 
      <g transform='translate(1140, 20)'>
        <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="53" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">PURPLE</p></body></foreignObject>
-       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="78" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(1, 160, 188)</p></body></foreignObject>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(116, 116, 193)</p></body></foreignObject>
      </g>
 
    </g>

@@ -429,14 +429,14 @@
 
                              <g transform='translate(20, 20)'>
                                <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="36" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">TEAL</p></body></foreignObject>
-                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="84" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(140, 61, 255)</p></body></foreignObject>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="84" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(89, 203, 232)</p></body></foreignObject>
                              </g>
 
                              <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="180" y="20" width="120" height="100"/>
 
                              <g transform='translate(180, 20)'>
                                <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="102" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">BLUE_DARKER</p></body></foreignObject>
-                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="78" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(28, 35, 105)</p></body></foreignObject>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="72" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(53, 64, 82)</p></body></foreignObject>
                              </g>
 
                              <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="340" y="20" width="120" height="100"/>
@@ -450,35 +450,35 @@
 
                              <g transform='translate(500, 20)'>
                                <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="29" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">RED</p></body></foreignObject>
-                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="78" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(194, 61, 85)</p></body></foreignObject>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(255, 114, 118)</p></body></foreignObject>
                              </g>
 
                              <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="660" y="20" width="120" height="100"/>
 
                              <g transform='translate(660, 20)'>
                                <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="59" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">ORANGE</p></body></foreignObject>
-                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(255, 166, 102)</p></body></foreignObject>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="84" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(255, 170, 99)</p></body></foreignObject>
                              </g>
 
                              <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="820" y="20" width="120" height="100"/>
 
                              <g transform='translate(820, 20)'>
                                <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="47" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">GREEN</p></body></foreignObject>
-                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(143, 255, 160)</p></body></foreignObject>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(126, 221, 211)</p></body></foreignObject>
                              </g>
 
                              <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="980" y="20" width="120" height="100"/>
 
                              <g transform='translate(980, 20)'>
                                <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="59" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">YELLOW</p></body></foreignObject>
-                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(232, 255, 124)</p></body></foreignObject>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(251, 216, 114)</p></body></foreignObject>
                              </g>
 
                              <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="1140" y="20" width="120" height="100"/>
 
                              <g transform='translate(1140, 20)'>
                                <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="10" width="53" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">PURPLE</p></body></foreignObject>
-                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="78" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(1, 160, 188)</p></body></foreignObject>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="10" y="38" width="90" height="24"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">rgb(116, 116, 193)</p></body></foreignObject>
                              </g>
 
                            </g>
@@ -496,24 +496,24 @@
                            <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="-1034" width="750" height="1334"/>
 
                            <g transform='translate(0, -1034)'>
-                             <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="1118" width="750" height="194"/>
+                             <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="1131" width="750" height="194"/>
 
-                             <g transform='translate(0, 1118)'>
+                             <g transform='translate(0, 1131)'>
                                <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="750" height="118"/>
 
                                <g transform='translate(0, 0)'>
                                  <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="-50" y="0" width="750" height="56"/>
 
                                  <g transform='translate(-50, 0)'>
-                                   <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="576" y="6" width="90" height="44"/>
+                                   <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="588" y="6" width="90" height="44"/>
 
-                                   <g transform='translate(576, 6)'>
+                                   <g transform='translate(588, 6)'>
                                      <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="12" y="8" width="66" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">First option</p></body></foreignObject>
                                    </g>
 
-                                   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="676" y="7" width="42" height="42"/>
+                                   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="688" y="7" width="42" height="42"/>
 
-                                   <g transform='translate(676, 7)'>
+                                   <g transform='translate(688, 7)'>
                                      <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="15" y="-3" width="12" height="48"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
                                    </g>
 
@@ -522,15 +522,15 @@
                                  <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="-50" y="56" width="750" height="62"/>
 
                                  <g transform='translate(-50, 56)'>
-                                   <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="561" y="6" width="105" height="44"/>
+                                   <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="573" y="6" width="105" height="44"/>
 
-                                   <g transform='translate(561, 6)'>
+                                   <g transform='translate(573, 6)'>
                                      <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="12" y="8" width="81" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Second option</p></body></foreignObject>
                                    </g>
 
-                                   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="676" y="7" width="42" height="42"/>
+                                   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="688" y="7" width="42" height="42"/>
 
-                                   <g transform='translate(676, 7)'>
+                                   <g transform='translate(688, 7)'>
                                      <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="15" y="-3" width="12" height="48"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
                                    </g>
 
@@ -544,7 +544,7 @@
                                  <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="662" y="0" width="56" height="66"/>
 
                                  <g transform='translate(662, 0)'>
-                                   <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(140, 61, 255)" x="-50" y="5" width="56" height="56"/>
+                                   <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(89, 203, 232)" x="-50" y="5" width="56" height="56"/>
 
                                    <g transform='translate(-50, 5)'>
                                      <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="-4" width="16" height="64"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
@@ -580,7 +580,12 @@
 
                            <g transform='translate(0, 92)'>
                              <rect type="TextInput" fill-opacity="0.1" stroke-width="1" stroke="black" x="20" y="25" width="202" height="0"/>
-                             <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="222" y="11" width="28" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
+                             <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="222" y="11" width="28" height="28"/>
+
+                             <g transform='translate(222, 11)'>
+                               <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="28" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
+                             </g>
+
                            </g>
 
                            <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="144" width="60" height="20"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">PasswordInput</p></body></foreignObject>
@@ -618,7 +623,7 @@
 
                            <g transform='translate(0, 10)'>
                              <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="86" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
-                             <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(140, 61, 255)" x="86" y="2" width="25" height="25"/>
+                             <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(89, 203, 232)" x="86" y="2" width="25" height="25"/>
                            </g>
 
                            <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="58" width="260" height="31"/>

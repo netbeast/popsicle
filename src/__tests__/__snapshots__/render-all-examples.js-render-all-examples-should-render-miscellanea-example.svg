@@ -8,7 +8,7 @@
 
    <g transform='translate(0, 10)'>
      <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="86" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
-     <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(140, 61, 255)" x="86" y="2" width="25" height="25"/>
+     <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(89, 203, 232)" x="86" y="2" width="25" height="25"/>
    </g>
 
    <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="58" width="320" height="31"/>

@@ -5,13 +5,12 @@ import {
   Image,
   Platform,
   StyleSheet,
-  TouchableNativeFeedback,
   TouchableWithoutFeedback,
   TouchableOpacity,
   View,
 } from 'react-native'
 import Icon from 'react-native-vector-icons/Ionicons'
-
+import TouchableNativeFeedback from 'react-native-touchable-native-feedback-safe'
 import * as Animatable from 'react-native-animatable'
 import * as theme from './theme'
 

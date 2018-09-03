@@ -16,7 +16,12 @@
 
    <g transform='translate(0, 92)'>
      <rect type="TextInput" fill-opacity="0.1" stroke-width="1" stroke="black" x="20" y="25" width="262" height="0"/>
-     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="282" y="11" width="28" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="282" y="11" width="28" height="28"/>
+
+     <g transform='translate(282, 11)'>
+       <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="28" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
+     </g>
+
    </g>
 
    <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="144" width="60" height="20"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">PasswordInput</p></body></foreignObject>
