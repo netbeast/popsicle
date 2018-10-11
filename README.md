@@ -1,6 +1,6 @@
 <p align="center">
   <img  height="200" src="public/popsicle.png">
-  Yeti favourites food
+  <br/>
 </p>
 
 # Popsicle
