@@ -36,17 +36,22 @@ export class TxtInput extends Component {
           }}
         />
         {this.state.filled ? (
-          <View style={{
-          	  borderRadius: 16,
-    		  width: 28,
-    		  height: 28,
-    		  overflow: 'hidden'
-    		}}>
+          <View
+            style={{
+              borderRadius: 16,
+              width: 28,
+              height: 28,
+              overflow: 'hidden',
+            }}>
             <Icon
-              style={styles.txtInputIcon}
-              color="white"
-              onPress={() => this.clearText()}
-              name="ios-close"
+              style={
+                this.props.editIcon
+                  ? styles.txtInputIconPen
+                  : styles.txtInputIcon
+              }
+              color={this.props.editIcon ? theme.GREY_LIGHT : 'white'}
+              onPress={() => (this.props.editIcon ? this.node.focus(): this.clearText()) }
+              name={this.props.editIcon ? 'md-create' : 'ios-close'}
             />
           </View>
         ) : null}
@@ -63,7 +68,7 @@ export const EmailInput = props => (
       </Title>
     )}
     <TxtInput
-       style={[styles.txtInput, props.style]}
+      style={[styles.txtInput, props.style]}
       autoCorrect={!!props.autoCorrect}
       keyboardType="email-address"
       placeholder={props.placeholder}
@@ -86,8 +91,8 @@ export class PasswordInput extends Component {
 
   render () {
     const {
-      style, label, placeholder, hideLabel, ...props
-    } = this.props
+style, label, placeholder, hideLabel, ...props
+} = this.props
     const {secureTextEntry, focus} = this.state
 
     // eslint-disable-next-line no-unused-vars
@@ -140,6 +145,12 @@ const styles = StyleSheet.create({
     fontSize: 26,
     backgroundColor: theme.GREY_LIGHT,
     borderRadius: 16,
+    width: 28,
+    height: 28,
+    textAlign: 'center',
+  },
+  txtInputIconPen: {
+    fontSize: 26,
     width: 28,
     height: 28,
     textAlign: 'center',
