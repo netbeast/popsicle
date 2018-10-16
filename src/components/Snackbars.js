@@ -33,7 +33,7 @@ export class Snackbar extends React.Component {
             style={[styles.ribbon, {backgroundColor: this.props.tintColor}]}
           />
           <View style={{flex: 1, padding: 10}}>
-            <Txt> {this.props.message} </Txt>
+            <Txt style={this.props.textStyle}> {this.props.message} </Txt>
           </View>
 
           {this.props.action ? (

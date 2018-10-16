@@ -46,10 +46,26 @@ export const RED = 'rgb(255, 114, 118)'
 export const YELLOW = 'rgb(251, 216, 114)'
 export const YELLOW_DARK = 'rgb(232, 211, 124)'
 
-export const PARAGRAPH_FONT = Platform.OS === 'web' ? 'Open Sans' : undefined
-export const BOLD_FONT = Platform.OS === 'web' ? 'Open Sans Bold' : undefined
-export const REGULAR_FONT = Platform.OS === 'web' ? 'Open Sans' : undefined
-export const SEMI_BOLD_FONT = Platform.OS === 'web' ? 'Open Sans Semibold' : undefined
+export const PARAGRAPH_FONT = Platform.select({
+  web: 'Open Sans',
+  ios: 'OpenSans-Regular',
+  android: 'OpenSans'
+})
+export const BOLD_FONT = Platform.select({
+  web: 'Open Sans',
+  ios: 'OpenSans-Bold',
+  android: 'OpenSans'
+})
+export const REGULAR_FONT = Platform.select({
+  web: 'Open Sans',
+  ios: 'OpenSans-Regular',
+  android: 'OpenSans'
+})
+export const SEMI_BOLD_FONT = Platform.select({
+  web: 'Open Sans',
+  ios: 'OpenSans-SemiBold',
+  android: 'OpenSans'
+})
 
 export const BORDER_RADIUS = 8
 
