@@ -45,13 +45,13 @@ export class TxtInput extends Component {
             }}>
             <Icon
               style={
-                this.props.editIcon
-                  ? styles.txtInputIconPen
+                this.props.fontIconName
+                  ? styles.fontIcon
                   : styles.txtInputIcon
               }
-              color={this.props.editIcon ? theme.GREY_LIGHT : 'white'}
-              onPress={() => (this.props.editIcon ? this.node.focus(): this.clearText()) }
-              name={this.props.editIcon ? 'md-create' : 'ios-close'}
+              color={this.props.fontIconName ? theme.GREY_LIGHT : 'white'}
+              onPress={() => (this.props.fontIconName ? this.node.focus(): this.clearText()) }
+              name={this.props.fontIconName ? this.props.fontIconName : 'ios-close'}
             />
           </View>
         ) : null}
@@ -149,7 +149,7 @@ const styles = StyleSheet.create({
     height: 28,
     textAlign: 'center',
   },
-  txtInputIconPen: {
+  fontIcon: {
     fontSize: 26,
     width: 28,
     height: 28,
