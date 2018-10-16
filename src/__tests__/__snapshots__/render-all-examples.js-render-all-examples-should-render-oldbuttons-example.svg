@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="320" height="480" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+ <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="320" height="480"/>
+
+ <g transform='translate(0, 0)'>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="320" height="102"/>
+
+   <g transform='translate(0, 0)'>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="238" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Sstandard button with console.log onPress</p></body></foreignObject>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="28" width="320" height="74"/>
+
+     <g transform='translate(0, 28)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="8" y="8" width="304" height="58"/>
+
+       <g transform='translate(8, 8)'>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="70" y="12" width="164" height="34"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Touch me motherfucker</p></body></foreignObject>
+       </g>
+
+     </g>
+
+   </g>
+
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="102" width="320" height="328"/>
+
+   <g transform='translate(0, 102)'>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="174" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">You can create colored buttons</p></body></foreignObject>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="28" width="320" height="74"/>
+
+     <g transform='translate(0, 28)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="8" y="8" width="304" height="58"/>
+
+       <g transform='translate(8, 8)'>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="85" y="12" width="134" height="34"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">I am a PINK button</p></body></foreignObject>
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="102" width="320" height="74"/>
+
+     <g transform='translate(0, 102)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="8" y="8" width="304" height="58"/>
+
+       <g transform='translate(8, 8)'>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="83" y="12" width="139" height="34"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">I am a BLUE button</p></body></foreignObject>
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="176" width="320" height="76"/>
+
+     <g transform='translate(0, 176)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="8" y="8" width="304" height="60"/>
+
+       <g transform='translate(8, 8)'>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="48" y="13" width="208" height="34"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">I am a GREEN_DARK button</p></body></foreignObject>
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="252" width="320" height="76"/>
+
+     <g transform='translate(0, 252)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="8" y="8" width="304" height="60"/>
+
+       <g transform='translate(8, 8)'>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="88" y="13" width="129" height="34"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">I am a RED button</p></body></foreignObject>
+       </g>
+
+     </g>
+
+   </g>
+
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="430" width="320" height="238"/>
+
+   <g transform='translate(0, 430)'>
+     <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="0" y="0" width="203" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Or create buttons with diferent sizes</p></body></foreignObject>
+     <rect type="Text" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="28" width="320" height="106"/>
+
+     <g transform='translate(0, 28)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="320" height="106"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="8" y="8" width="160" height="90"/>
+
+         <g transform='translate(8, 8)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="-62" y="28" width="284" height="34"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Centered button height: 90 and width:190</p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="134" width="320" height="104"/>
+
+     <g transform='translate(0, 134)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="8" y="8" width="304" height="88"/>
+
+       <g transform='translate(8, 8)'>
+         <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="74" y="12" width="156" height="64"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">fontSize: 32</p></body></foreignObject>
+       </g>
+
+     </g>
+
+   </g>
+
+ </g>
+
+</svg>
