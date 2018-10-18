@@ -251,7 +251,7 @@ const styles = StyleSheet.create({
     borderRadius: 3,
     ...shadow({
       elevation: 3,
-      color: 'rgb(115, 115, 115)',
+      color: 'rgba(115, 115, 115, 0.25)',
       radius: 4,
       offsetWidth: 0,
       offsetHeight: 2,
