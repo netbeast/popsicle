@@ -12,6 +12,8 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons'
 import TouchableNativeFeedback from 'react-native-touchable-native-feedback-safe'
 import * as Animatable from 'react-native-animatable'
+import * as colorsys from 'colorsys'
+
 import * as theme from './theme'
 
 export const AnimatableView = __DEV__ ? View : Animatable.View
@@ -209,10 +211,16 @@ function shadow ({
   offsetHeight,
   elevation,
 }) {
+  // Opacity and alpha should be 1 by default
+  // Multiplying values is the algorithm for mixing opacity and alpha
+  // But it's not working as expected on iOS, so we do it by hand
+  const {a, ...colorWithoutAlpha} = colorsys.parseCss(color)
+  const alpha = (opacity || 1) * (a || 1)
+
   return Platform.select({
     ios: {
-      shadowColor: color,
-      shadowOpacity: opacity,
+      shadowColor: colorsys.stringify(colorWithoutAlpha),
+      shadowOpacity: alpha,
       shadowRadius: radius,
       shadowOffset: {
         width: offsetWidth,
