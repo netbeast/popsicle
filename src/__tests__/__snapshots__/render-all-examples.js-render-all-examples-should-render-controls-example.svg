@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="320" height="480" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+ <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="300" height="300"/>
+
+ <g transform='translate(0, 0)'>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="-1034" width="750" height="1334"/>
+
+   <g transform='translate(0, -1034)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="1131" width="750" height="194"/>
+
+     <g transform='translate(0, 1131)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="750" height="118"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="-50" y="0" width="750" height="56"/>
+
+         <g transform='translate(-50, 0)'>
+           <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="588" y="6" width="90" height="44"/>
+
+           <g transform='translate(588, 6)'>
+             <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="12" y="8" width="66" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">First option</p></body></foreignObject>
+           </g>
+
+           <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="688" y="7" width="42" height="42"/>
+
+           <g transform='translate(688, 7)'>
+             <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="15" y="-3" width="12" height="48"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="-50" y="56" width="750" height="62"/>
+
+         <g transform='translate(-50, 56)'>
+           <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="573" y="6" width="105" height="44"/>
+
+           <g transform='translate(573, 6)'>
+             <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="12" y="8" width="81" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Second option</p></body></foreignObject>
+           </g>
+
+           <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="688" y="7" width="42" height="42"/>
+
+           <g transform='translate(688, 7)'>
+             <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="15" y="-3" width="12" height="48"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
+           </g>
+
+         </g>
+
+       </g>
+
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="118" width="750" height="76"/>
+
+       <g transform='translate(0, 118)'>
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="662" y="0" width="56" height="66"/>
+
+         <g transform='translate(662, 0)'>
+           <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="rgb(89, 203, 232)" x="-50" y="5" width="56" height="56"/>
+
+           <g transform='translate(-50, 5)'>
+             <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="-4" width="16" height="64"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"></p></body></foreignObject>
+           </g>
+
+         </g>
+
+       </g>
+
+     </g>
+
+   </g>
+
+ </g>
+
+</svg>
