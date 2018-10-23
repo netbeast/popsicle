@@ -33,7 +33,7 @@ export class Snackbar extends React.Component {
             style={[styles.ribbon, {backgroundColor: this.props.tintColor}]}
           />
           <View style={{flex: 1, padding: 10}}>
-            <Txt style={this.props.textStyle}> {this.props.message} </Txt>
+            <Txt style={this.props.textStyle}>{this.props.message}</Txt>
           </View>
 
           {this.props.action ? (
@@ -92,8 +92,8 @@ export class SnackbarProvider extends React.Component {
       <SnackbarContext.Provider value={{isSnackbarVisible, ...this.sharedValues}}>
         {this.props.children}
         {isSnackbarVisible ?
-        <View style={{flex: 1, position: 'absolute', top: 10, left: 10}}>
-          <Snackbar {...snackbarProps} />
+        <View style={{flex: 1, position: 'absolute', top: 40, left: 10}}>
+          <Snackbar {...this.props} {...snackbarProps} />
         </View> : null}
       </SnackbarContext.Provider>
     )
