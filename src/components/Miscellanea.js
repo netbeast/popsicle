@@ -23,7 +23,9 @@ export const CheckBox = ({size, value, ...props}) => {
   const inactiveTintColor = props.inactiveTintColor || 'white'
   const borderInactiveTintColor = props.inactiveTintColor || theme.GREY_LIGHT
   return (
-    <TouchableWithoutFeedback onPress={props.onValueChange}>
+    <TouchableWithoutFeedback
+      onPress={props.onValueChange}
+      hitSlop={{top: 10, right: 10, left: 10, bottom: 10}}>
       <View
         style={{
           width: size || 25,
@@ -99,13 +101,13 @@ export class Img extends Component {
 export const NavbarIcon = ({style, source, ...props}) => (
   <TouchableOpacity
     {...props}
-    activeOpacity={0.8}
-    style={[{padding: theme.NAVBAR_HEIGHT * 0.2}, style]}>
+    style={[{paddingLeft: 8, paddingVertical: 8}, style]}
+    activeOpacity={0.8}>
     <Image
       source={source}
       style={{
-        height: theme.NAVBAR_HEIGHT * 0.5,
-        width: theme.NAVBAR_HEIGHT * 0.5,
+        height: Platform.OS === 'ios' ? 22 : 26,
+        width: Platform.OS === 'ios' ? 22 : 26,
       }}
     />
   </TouchableOpacity>
@@ -158,7 +160,7 @@ export const Setting = ({
   ...props
 }) => (
   <View>
-    <TouchableOpacity
+    <TouchableRipple
       {...props}
       activeOpacity={0.8}
       disabled={typeof props.onPress !== 'function'}
@@ -177,7 +179,7 @@ export const Setting = ({
         />
       ) : null}
       {children}
-    </TouchableOpacity>
+    </TouchableRipple>
     {!props.hideSeparator ? (
       <Hr tintColor={theme.TEAL_SEMI_TRANSPARENT} />
     ) : null}
