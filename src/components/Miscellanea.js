@@ -105,6 +105,7 @@ export const NavbarIcon = ({style, source, ...props}) => (
     activeOpacity={0.8}>
     <Image
       source={source}
+      resizeMode="contain"
       style={{
         height: Platform.OS === 'ios' ? 22 : 26,
         width: Platform.OS === 'ios' ? 22 : 26,
