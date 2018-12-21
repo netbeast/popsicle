@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="320" height="480" xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+ <rect type="View" fill-opacity="1" stroke-width="1" stroke="black" fill="white" x="0" y="0" width="320" height="480"/>
+
+ <g transform='translate(0, 0)'>
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="-68" y="0" width="243" height="480"/>
+
+   <g transform='translate(-68, 0)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="10" width="223" height="48"/>
+
+     <g transform='translate(10, 10)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="167" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="167" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="167" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="167" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="54" y="10" width="61" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Next Time</p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="58" width="223" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="68" width="223" height="48"/>
+
+     <g transform='translate(10, 68)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="72" y="10" width="81" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">A large button</p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="116" width="223" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="126" width="223" height="48"/>
+
+     <g transform='translate(10, 126)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="111" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="111" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="111" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="111" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="36" y="10" width="39" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Small </p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="174" width="223" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="184" width="223" height="34"/>
+
+     <g transform='translate(10, 184)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="223" height="34"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="74" height="34"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="74" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="74" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="74" height="34"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="20" y="3" width="35" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Mini </p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+   </g>
+
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="38" y="0" width="244" height="480"/>
+
+   <g transform='translate(38, 0)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="10" width="224" height="48"/>
+
+     <g transform='translate(10, 10)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="Image" fill-opacity="0.1" stroke-width="1" stroke="black" x="15" y="14" width="20" height="20"/>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="40" y="10" width="120" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Login with Facebook</p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="58" width="224" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="68" width="224" height="48"/>
+
+     <g transform='translate(10, 68)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="Image" fill-opacity="0.1" stroke-width="1" stroke="black" x="15" y="14" width="20" height="20"/>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="40" y="10" width="107" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Login with Google</p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="116" width="224" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="126" width="224" height="48"/>
+
+     <g transform='translate(10, 126)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="82" y="10" width="4" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="174" width="224" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="184" width="224" height="48"/>
+
+     <g transform='translate(10, 184)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="110" y="10" width="4" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> </p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="232" width="224" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="242" width="224" height="48"/>
+
+     <g transform='translate(10, 242)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="112" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="112" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="112" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="112" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="36" y="10" width="40" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px"> Small </p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="290" width="224" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="300" width="224" height="34"/>
+
+     <g transform='translate(10, 300)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="34"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="75" height="34"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="75" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="75" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="75" height="34"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="Text" fill-opacity="0.1" stroke-width="1" stroke="black" x="38" y="17" width="0" height="0"/>
+         </g>
+
+       </g>
+
+     </g>
+
+   </g>
+
+   <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="145" y="0" width="244" height="480"/>
+
+   <g transform='translate(145, 0)'>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="10" width="224" height="48"/>
+
+     <g transform='translate(10, 10)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="Image" fill-opacity="0.1" stroke-width="1" stroke="black" x="49" y="14" width="20" height="20"/>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="74" y="10" width="106" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Disabled with icon</p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="58" width="224" height="10"/>
+     <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="10" y="68" width="224" height="48"/>
+
+     <g transform='translate(10, 68)'>
+       <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="224" height="48"/>
+
+       <g transform='translate(0, 0)'>
+         <rect type="RNSVGSvgView" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <rect type="RNSVGGroup" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="0"/>
+
+           <g transform='translate(0, 0)'>
+             <rect type="RNSVGPath" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="0"/>
+           </g>
+
+         </g>
+
+         <rect type="View" fill-opacity="0.1" stroke-width="1" stroke="black" x="0" y="0" width="168" height="48"/>
+
+         <g transform='translate(0, 0)'>
+           <foreignObject requiredExtensions="http://www.w3.org/1999/xhtml" x="59" y="10" width="50" height="28"><body xmlns="http://www.w3.org/1999/xhtml" style="margin:0;"><p style="font-family:'undefined','Times New Roman';font-size:14px">Disabled</p></body></foreignObject>
+         </g>
+
+       </g>
+
+     </g>
+
+   </g>
+
+ </g>
+
+</svg>

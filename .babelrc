@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "flow",
+    "react-native"
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "idx",
+        "transform-remove-console",
+        "transform-inline-environment-variables"
+      ]
+    }
+  }
+}
