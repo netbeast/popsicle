@@ -2,9 +2,8 @@ import React from 'react'
 import {Platform, Switch as NativeSwitch} from 'react-native'
 import * as theme from './theme'
 
-export function Switch(props) {
+export function Switch (props) {
   const androidThumbColor = props.value ? theme.TEAL : theme.GREY_LIGHTER
-  const trackColor = Platform.OS === 'android' ? theme.GREY : null
   let thumbTintColor
   let onTintColor
 
@@ -18,9 +17,8 @@ export function Switch(props) {
 
   return (
     <NativeSwitch
-      onTintColor={onTintColor}
-      thumbTintColor={thumbTintColor}
-      trackColor={props.tintColor || trackColor}
+      thumbColor={thumbTintColor}
+      trackColor={{true: onTintColor}}
       {...props}
     />
   )
