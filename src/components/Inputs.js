@@ -130,6 +130,8 @@ const styles = StyleSheet.create({
     flex: 1,
     fontFamily: theme.REGULAR_FONT,
     fontSize: 16,
+    padding: 0,
+    paddingBottom: 0,
   },
   txtInputBackground: {
     backgroundColor: theme.GREY_LIGHTER,
