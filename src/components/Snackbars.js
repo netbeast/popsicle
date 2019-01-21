@@ -3,7 +3,7 @@
  */
 
 import React from 'react'
-import { StyleSheet, TouchableOpacity, View, Animated } from 'react-native'
+import { StyleSheet, TouchableOpacity, TouchableWithoutFeedback, View, Animated } from 'react-native'
 
 import { Txt, Bold } from './Text'
 import { DropShadow } from './Miscellanea'
@@ -68,23 +68,25 @@ export class Snackbar extends React.Component {
             height: heightValue
           }}
         >
-          <DropShadow style={this.props.style}>
-            <View style={styles.snackbar}>
-              <View
-                style={[styles.ribbon, { backgroundColor: this.props.tintColor }]}
-              />
-              <View style={{ flex: 1, padding: 10 }}>
-                <Txt style={this.props.textStyle}>{this.props.message}</Txt>
+          <TouchableWithoutFeedback onPress={this.props.closable ? this.close : null} >
+            <DropShadow style={this.props.style}>
+              <View style={styles.snackbar}>
+                <View
+                  style={[styles.ribbon, { backgroundColor: this.props.tintColor }]}
+                />
+                <View style={{ flex: 1, padding: 10 }}>
+                  <Txt style={this.props.textStyle}>{this.props.message}</Txt>
+                </View>
+                {this.props.action ? (
+                  <TouchableOpacity onPress={this.props.onActionPressed}>
+                    <View style={styles.action}>
+                      <Bold style={{ color: theme.TEAL }}> {this.props.action} </Bold>
+                    </View>
+                  </TouchableOpacity>
+                ) : null}
               </View>
-              {this.props.action ? (
-                <TouchableOpacity onPress={this.props.onActionPressed || this.close}>
-                  <View style={styles.action}>
-                    <Bold style={{ color: theme.TEAL }}> {this.props.action} </Bold>
-                  </View>
-                </TouchableOpacity>
-              ) : null}
-            </View>
-          </DropShadow>
+            </DropShadow>
+          </TouchableWithoutFeedback>
         </Animated.View>) : null
     )
   }
