@@ -3,60 +3,103 @@
  */
 
 import React from 'react'
-import {StyleSheet, TouchableOpacity, View} from 'react-native'
+import { StyleSheet, TouchableOpacity, TouchableWithoutFeedback, View, Animated } from 'react-native'
 
-import {Txt, Bold} from './Text'
-import {DropShadow} from './Miscellanea'
+import { Txt, Bold } from './Text'
+import { DropShadow } from './Miscellanea'
 import * as theme from './theme'
 
 type SnackbarProps = {
   message: string,
   action?: string,
   tintColor: string,
-  onActionPressed: () => void,
+  onActionPressed?: () => void,
   hideSnackbar: () => void,
 }
 
 export class Snackbar extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      visible: true
+    }
+  }
+
+  animationValues = {
+    fadeValue: new Animated.Value(1),
+    heightValue: new Animated.Value(this.props.style && this.props.style.height ? this.props.style.height : 60)
+  }
+
   static defaultProps = {
     message: '',
     tintColor: theme.TEAL,
-    onActionPressed () {},
-    hideSnackbar () {},
+    hideSnackbar() { },
   }
 
-  render () {
-    return (
-      <DropShadow style={this.props.style}>
-        <View style={styles.snackbar}>
-          <View
-            style={[styles.ribbon, {backgroundColor: this.props.tintColor}]}
-          />
-          <View style={{flex: 1, padding: 10}}>
-            <Txt style={this.props.textStyle}>{this.props.message}</Txt>
-          </View>
+  toNarrow = () => {
+    Animated.timing(
+      this.animationValues.heightValue,
+      {
+        toValue: 0,
+        duration: 300,
+      }
+    ).start(() => { this.setState({ visible: false }) });
+  }
 
-          {this.props.action ? (
-            <TouchableOpacity onPress={this.props.onActionPressed}>
-              <View style={styles.action}>
-                <Bold style={{color: theme.TEAL}}> {this.props.action} </Bold>
+  close = () => {
+    Animated.timing(
+      this.animationValues.fadeValue,
+      {
+        toValue: 0,
+        duration: 400,
+      }
+    ).start(() => this.toNarrow());
+  }
+
+  render() {
+    let { fadeValue, heightValue } = this.animationValues;
+    console.log(this.state.visible)
+
+    return (
+      this.state.visible ? (
+        <Animated.View
+          style={{
+            opacity: fadeValue,
+            height: heightValue
+          }}
+        >
+          <TouchableWithoutFeedback onPress={this.props.closable ? this.close : null} >
+            <DropShadow style={this.props.style}>
+              <View style={styles.snackbar}>
+                <View
+                  style={[styles.ribbon, { backgroundColor: this.props.tintColor }]}
+                />
+                <View style={{ flex: 1, padding: 10 }}>
+                  <Txt style={this.props.textStyle}>{this.props.message}</Txt>
+                </View>
+                {this.props.action ? (
+                  <TouchableOpacity onPress={this.props.onActionPressed}>
+                    <View style={styles.action}>
+                      <Bold style={{ color: theme.TEAL }}> {this.props.action} </Bold>
+                    </View>
+                  </TouchableOpacity>
+                ) : null}
               </View>
-            </TouchableOpacity>
-          ) : null}
-        </View>
-      </DropShadow>
+            </DropShadow>
+          </TouchableWithoutFeedback>
+        </Animated.View>) : null
     )
   }
 }
 
 export const SnackbarContext = React.createContext({
   isSnackbarVisible: false,
-  showSnackbar () {},
-  hideSnackbar () {},
+  showSnackbar() { },
+  hideSnackbar() { },
 })
 
 export class SnackbarProvider extends React.Component {
-  constructor () {
+  constructor() {
     super()
     this.state = {
       isSnackbarVisible: false,
@@ -74,27 +117,27 @@ export class SnackbarProvider extends React.Component {
     snackbarProps: SnackbarProps,
   }
 
-  showSnackbar (snackbarProps) {
+  showSnackbar(snackbarProps) {
     this.setState({
       isSnackbarVisible: true,
       snackbarProps,
     })
   }
 
-  hideSnackbar () {
-    this.setState({isSnackbarVisible: false})
+  hideSnackbar() {
+    this.setState({ isSnackbarVisible: false })
   }
 
-  render () {
-    const {isSnackbarVisible, snackbarProps} = this.state
+  render() {
+    const { isSnackbarVisible, snackbarProps } = this.state
 
     return (
-      <SnackbarContext.Provider value={{isSnackbarVisible, ...this.sharedValues}}>
+      <SnackbarContext.Provider value={{ isSnackbarVisible, ...this.sharedValues }}>
         {this.props.children}
         {isSnackbarVisible ?
-        <View style={{flex: 1, position: 'absolute', top: 40, left: 10}}>
-          <Snackbar {...this.props} {...snackbarProps} />
-        </View> : null}
+          <View style={{ flex: 1, position: 'absolute', top: 40, left: 10 }}>
+            <Snackbar {...this.props} {...snackbarProps} />
+          </View> : null}
       </SnackbarContext.Provider>
     )
   }
