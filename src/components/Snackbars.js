@@ -58,7 +58,6 @@ export class Snackbar extends React.Component {
 
   render() {
     let { fadeValue, heightValue } = this.animationValues;
-    console.log(this.state.visible)
 
     return (
       this.state.visible ? (
