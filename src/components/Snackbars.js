@@ -67,7 +67,7 @@ export class Snackbar extends React.Component {
             height: heightValue
           }}
         >
-          <TouchableWithoutFeedback onPress={this.props.closable ? this.close : null} >
+          <TouchableWithoutFeedback onPress={this.close} >
             <DropShadow style={this.props.style}>
               <View style={styles.snackbar}>
                 <View
