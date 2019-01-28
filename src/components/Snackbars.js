@@ -14,6 +14,7 @@ type SnackbarProps = {
   action?: string,
   tintColor: string,
   onActionPressed?: () => void,
+  onClose?: () => void,
   hideSnackbar: () => void,
 }
 
@@ -43,7 +44,13 @@ export class Snackbar extends React.Component {
         toValue: 0,
         duration: 300,
       }
-    ).start(() => { this.setState({ visible: false }) });
+    ).start( () => {
+      this.props.onClose()
+       this.setState({ visible: false 
+      }
+    )
+    });
+   
   }
 
   close = () => {
@@ -53,7 +60,9 @@ export class Snackbar extends React.Component {
         toValue: 0,
         duration: 400,
       }
-    ).start(() => this.toNarrow());
+    ).start(() => this.toNarrow() );
+   
+    
   }
 
   render() {
